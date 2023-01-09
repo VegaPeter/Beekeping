@@ -53,36 +53,36 @@
     <UnityVersion>2021.3.16f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\XRPlatformControllerSetup.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoKeypadButton.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoCodeGrabbing.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHelper.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSocketables.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoLockedDoor.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHatchDoor.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHolster.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoFullStabConfetti.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoPowerUnit.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoValveLock.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoValveHologram.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSocketFilter.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoKeyHologram.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scenes\HandSqueezeDemo\DemoPoseSqueeze.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoKeypad.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoDummyArm.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoLeverDisplay.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHolsterOrientation.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoLock.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSafeDoor.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSafeDial.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoPassthroughSocket.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSlidingDoor.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoGlassRotate.cs" />
-    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoManualTeleport.cs" />
+    <Compile Include="Assets\NatureManufacture Assets\NatureManufacture Wind\NM_Wind.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoUIManager.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoBackpack.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoKeypadButton.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoCodeGrabbing.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHolster.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoFullStabConfetti.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoKeypad.cs" />
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHeavyDoor.cs" />
-    <Compile Include="Assets\NatureManufacture Assets\NatureManufacture Wind\NM_Wind.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSocketables.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHatchDoor.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoPowerUnit.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoKeyHologram.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoLeverDisplay.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoLock.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSlidingDoor.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoGlassRotate.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoHelper.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoValveLock.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoSocketFilter.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scenes\HandSqueezeDemo\DemoPoseSqueeze.cs" />
+    <Compile Include="Assets\XRPlatformControllerSetup.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoDummyArm.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoPassthroughSocket.cs" />
+    <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoManualTeleport.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\HurricaneVR\Framework\SFX\license.txt" />
@@ -747,44 +747,17 @@
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InputSystem">
-      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Management">
-      <HintPath>Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Oculus.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
@@ -795,11 +768,32 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Subsystem.Registration">
       <HintPath>Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
       <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
       <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
@@ -813,11 +807,14 @@
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.Management">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Oculus.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.XR.OpenXR">
       <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Oculus">
-      <HintPath>Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
       <HintPath>Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
@@ -828,18 +825,21 @@
     <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
       <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.Oculus">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="HurricaneVR.Editor.csproj">
-      <Project>{E393697C-6573-B96F-3555-77C4A8A5D7D3}</Project>
-      <Name>HurricaneVR.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="HurricaneVR.Framework.csproj">
       <Project>{69C93DFB-873C-3908-715A-C762CEDC1492}</Project>
       <Name>HurricaneVR.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="HurricaneVR.Editor.csproj">
+      <Project>{E393697C-6573-B96F-3555-77C4A8A5D7D3}</Project>
+      <Name>HurricaneVR.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
