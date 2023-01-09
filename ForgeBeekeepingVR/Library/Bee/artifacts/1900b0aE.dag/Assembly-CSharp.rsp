@@ -384,6 +384,7 @@
 "Assets/HurricaneVR/TechDemo/Scripts/DemoUIManager.cs"
 "Assets/HurricaneVR/TechDemo/Scripts/DemoValveHologram.cs"
 "Assets/HurricaneVR/TechDemo/Scripts/DemoValveLock.cs"
+"Assets/NatureManufacture Assets/NatureManufacture Wind/NM_Wind.cs"
 "Assets/XRPlatformControllerSetup.cs"
 -langversion:9.0
 
