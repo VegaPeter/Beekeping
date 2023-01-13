@@ -671,8 +671,6 @@ MonoBehaviour:
   TwoHandStrength: {fileID: 11400000, guid: bfff0207f648e9b4d9f1868798fb5efe, type: 2}
   PullingSettingsOverride: {fileID: 0}
   HandGrabbedClip: {fileID: 0}
-  StartingSocket: {fileID: 0}
-  LinkStartingSocket: 0
   SocketGrabPoints: []
   Rigidbody: {fileID: 5276702847809236132}
   AutoApplyLayer: 1
@@ -696,6 +694,8 @@ MonoBehaviour:
   MaxDistanceBehaviour: 0
   OneHandJointSettings: {fileID: 0}
   TwoHandJointSettings: {fileID: 0}
+  StartingSocket: {fileID: 0}
+  LinkStartingSocket: 0
   ShowBoundingBox: 0
   DrawCenterOfMass: 0
   GrabPoints: []
@@ -1439,11 +1439,11 @@ MonoBehaviour:
   GrabBags:
   - {fileID: 5276702846339417586}
   GrabControl: 0
-  GrabDetectionType: 1
+  GrabDetectionType: 0
   CheckHandOverlap: 0
   ReleasesOnHover: 0
   InstantHandPose: 0
-  HoldType: 0
+  HoldType: 1
   AutoSpawnPrefab: {fileID: 0}
   GrabTimeout: 2
   GrabbableMustBeHeld: 1
@@ -1697,8 +1697,6 @@ MonoBehaviour:
   TwoHandStrength: {fileID: 0}
   PullingSettingsOverride: {fileID: 0}
   HandGrabbedClip: {fileID: 0}
-  StartingSocket: {fileID: 0}
-  LinkStartingSocket: 0
   SocketGrabPoints: []
   Rigidbody: {fileID: 0}
   AutoApplyLayer: 1
@@ -1721,6 +1719,8 @@ MonoBehaviour:
   MaxDistanceBehaviour: 0
   OneHandJointSettings: {fileID: 0}
   TwoHandJointSettings: {fileID: 0}
+  StartingSocket: {fileID: 0}
+  LinkStartingSocket: 0
   ShowBoundingBox: 0
   DrawCenterOfMass: 0
   GrabPoints: []
@@ -1880,8 +1880,6 @@ MonoBehaviour:
   TwoHandStrength: {fileID: 0}
   PullingSettingsOverride: {fileID: 0}
   HandGrabbedClip: {fileID: 0}
-  StartingSocket: {fileID: 0}
-  LinkStartingSocket: 0
   SocketGrabPoints: []
   Rigidbody: {fileID: 0}
   AutoApplyLayer: 1
@@ -1905,6 +1903,8 @@ MonoBehaviour:
   MaxDistanceBehaviour: 0
   OneHandJointSettings: {fileID: 0}
   TwoHandJointSettings: {fileID: 0}
+  StartingSocket: {fileID: 0}
+  LinkStartingSocket: 0
   ShowBoundingBox: 0
   DrawCenterOfMass: 0
   GrabPoints: []
@@ -2759,8 +2759,6 @@ MonoBehaviour:
   TwoHandStrength: {fileID: 0}
   PullingSettingsOverride: {fileID: 0}
   HandGrabbedClip: {fileID: 0}
-  StartingSocket: {fileID: 0}
-  LinkStartingSocket: 0
   SocketGrabPoints: []
   Rigidbody: {fileID: 0}
   AutoApplyLayer: 1
@@ -2783,6 +2781,8 @@ MonoBehaviour:
   MaxDistanceBehaviour: 0
   OneHandJointSettings: {fileID: 0}
   TwoHandJointSettings: {fileID: 0}
+  StartingSocket: {fileID: 0}
+  LinkStartingSocket: 0
   ShowBoundingBox: 0
   DrawCenterOfMass: 0
   GrabPoints: []
