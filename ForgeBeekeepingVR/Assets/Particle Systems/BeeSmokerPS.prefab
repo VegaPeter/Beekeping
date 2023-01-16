@@ -2108,10 +2108,10 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    inWorldSpace: 0
+    inWorldSpace: 1
   InheritVelocityModule:
-    enabled: 0
-    m_Mode: 0
+    enabled: 1
+    m_Mode: 1
     m_Curve:
       serializedVersion: 2
       minMaxState: 0
