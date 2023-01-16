@@ -83,6 +83,7 @@ MonoBehaviour:
   GrabDetectionType: 1
   CheckHandOverlap: 0
   ReleasesOnHover: 0
+  InstantHandPose: 0
   HoldType: 0
   AutoSpawnPrefab: {fileID: 0}
   GrabTimeout: 0
@@ -102,6 +103,9 @@ MonoBehaviour:
   AudioReleasedFallback: {fileID: 0}
   SocketFilters: []
   FilterCondition: 0
+  DistanceSource: {fileID: 0}
+  PoseTag: 
+  DisableCollision: 1
   SpawnedPrefab:
     m_PersistentCalls:
       m_Calls: []
@@ -220,7 +224,6 @@ MonoBehaviour:
     RingStart: 0
     PinkyStart: 0
   Blends: []
-  ReferencePose: {fileID: 0}
   MirrorAxis: 2
 --- !u!114 &1503341493
 MonoBehaviour:
@@ -234,15 +237,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79cd113ec3a24073b5bab8cbfb533d1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PoserIndex: 0
   IsJointAnchor: 0
+  IsForceGrabbable: 1
+  OneHandOnly: 0
   AllowedAngleDifference: 360
+  CheckDistance: 0
+  MaxDistance: 0.3
   LeftHand: 1
   RightHand: 1
+  Group: -1
   HandRotationOffset: {x: 0, y: 0, z: 0}
   HandPositionOffset: {x: 0, y: 0, z: 0}
   GrabIndicatorPosition: {fileID: 0}
   VisualGrabPoint: {fileID: 0}
   HandPoser: {fileID: 1503341494}
+  Grabbable: {fileID: 0}
   IsLineGrab: 0
   LineStart: {fileID: 0}
   LineEnd: {fileID: 0}
@@ -250,7 +260,11 @@ MonoBehaviour:
   LooseDamper: 100
   LooseAngularDamper: 1
   LineCanReposition: 1
+  LineInitialCanReposition: 1
   LineCanRotate: 1
+  LineFreeRotation: 0
+  LineInitialCanRotate: 1
+  Others: []
 --- !u!1 &1571637294
 GameObject:
   m_ObjectHideFlags: 0
@@ -665,20 +679,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ebc937e678155e4d86feeb9248cca97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AllowMultiplayerSwap: 0
-  GrabType: 0
+  GrabBehaviour: 0
+  PoseType: 0
   TrackingType: 0
   HoldType: 1
   GrabControl: 0
   OverrideGrabTrigger: 0
   GrabTrigger: 0
   RequireLineOfSight: 1
-  EnableInvisibleHand: 0
-  PhysicsPoserFallback: 1
-  ParentHandModelImmediately: 0
+  PoseImmediately: 0
   ParentHandModel: 1
   BreakDistance: 1
-  RemainsKinematic: 1
+  BreakDistanceSource: 0
   Stationary: 1
   ReleasedAngularConversionFactor: 1
   ReleasedVelocityFactor: 1
@@ -688,28 +700,19 @@ MonoBehaviour:
   ShowGrabIndicator: 1
   ShowTriggerGrabIndicator: 1
   ShowForceGrabIndicator: 1
-  LeftForceGrabberGrabPoint: {fileID: 0}
-  RightForceGrabberGrabPoint: {fileID: 0}
-  UseDefaultHighlighter: 1
-  ForceGrabberHighlighter: {fileID: 0}
   ForceGrabbable: 1
   ForcePullOverride: {fileID: 0}
   JointOverride: {fileID: 0}
-  OneHandJointSettings: {fileID: 0}
-  TwoHandJointSettings: {fileID: 0}
+  OneHandStrength: {fileID: 0}
+  TwoHandStrength: {fileID: 0}
   PullingSettingsOverride: {fileID: 0}
-  PalmCenterOfMass: 0
-  CanJointBreak: 0
-  JointBreakForce: 2000
-  JointBreakTorque: 2000
   HandGrabbedClip: {fileID: 0}
-  StartingSocket: {fileID: 0}
-  LinkStartingSocket: 0
+  SocketGrabPoints: []
+  Rigidbody: {fileID: 0}
   AutoApplyLayer: 1
   RequireOverlapClearance: 0
   OverlapTimeout: 5
   FinalJointMaxAngle: 3
-  FinalJointQuick: 1
   FinalJointTimeout: 2
   CollisionParents: []
   ExtraIgnoreCollisionParents: []
@@ -717,7 +720,17 @@ MonoBehaviour:
   ConsiderGrabPointAngle: 1
   UseColliderClosestPoint: 1
   DisableHandCollision: 0
+  AllowMultiplayerSwap: 0
+  MasterGrabbable: {fileID: 0}
+  LinkedGrabbables: []
   CollisionDetection: 2
+  PhysicsPoserFallback: 1
+  OverrideMaxDistanceBehaviour: 0
+  MaxDistanceBehaviour: 0
+  OneHandJointSettings: {fileID: 0}
+  TwoHandJointSettings: {fileID: 0}
+  StartingSocket: {fileID: 0}
+  LinkStartingSocket: 0
   ShowBoundingBox: 0
   DrawCenterOfMass: 0
   GrabPoints: []
@@ -760,6 +773,7 @@ MonoBehaviour:
   UnSocketed:
     m_PersistentCalls:
       m_Calls: []
+  GrabPointsMeta: []
   Grabbers: []
   HandGrabbers: []
   Stabbers: []
@@ -1284,6 +1298,8 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 3200498571457566425, guid: b1d5d3ef80859e448bbf1e53111472e6, type: 3}
     - {fileID: 4685526205721433892, guid: b1d5d3ef80859e448bbf1e53111472e6, type: 3}
+    - {fileID: 3580872485464450989, guid: b1d5d3ef80859e448bbf1e53111472e6, type: 3}
+    - {fileID: 2927961943920883922, guid: b1d5d3ef80859e448bbf1e53111472e6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b1d5d3ef80859e448bbf1e53111472e6, type: 3}
 --- !u!1 &1623510926100855271 stripped
 GameObject:
