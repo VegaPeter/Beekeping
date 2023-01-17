@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class SmokerController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] GameObject smokeParticleSystem;
+    bool isHeld;
 
     // Update is called once per frame
     void Update()
     {
-        
+        //Checks to see if isHeld is true (isHeld is set when the smoker is picked up) and then if either trigger is held.
+        //Note: will work if the smoker is in the left hand but the right trigger is held
+        if(isHeld && (OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger) || OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger)))
+        {
+            smokeParticleSystem.SetActive(true);
+        }
+        else
+        {
+            smokeParticleSystem.SetActive(false);
+        }
+    }
+
+    //Sets the isHeld variable to what it is currently not, isHeld is initialised as false
+    public void SmokerIsHeld()
+    {
+        if (isHeld) { isHeld = false; }
+        else if (isHeld == false) { isHeld = true; }
     }
 }
