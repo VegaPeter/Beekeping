@@ -132,8 +132,8 @@
     <Compile Include="Assets\Oculus\Platform\Scripts\UserOptions.cs" />
     <Compile Include="Assets\Oculus\Platform\Samples\VrHoops\Scripts\AIPlayer.cs" />
     <Compile Include="Assets\Oculus\Platform\Samples\NetChat\DataEntry.cs" />
-    <Compile Include="Assets\Oculus\Platform\Samples\VrBoardGame\Scripts\GameBoard.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\AbuseReportOptions.cs" />
+    <Compile Include="Assets\Oculus\Platform\Samples\VrBoardGame\Scripts\GameBoard.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\Models\NetSyncSessionsChangedNotification.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\Models\CalApplicationProposed.cs" />
     <Compile Include="Assets\Oculus\Platform\Scripts\MediaContentType.cs" />
