@@ -6,28 +6,32 @@ using HurricaneVR.Framework.Core;
 using HurricaneVR.Framework.Core.Grabbers;
 using HurricaneVR.Framework.Core.Utils;
 using HurricaneVR.Framework.Shared;
+using HurricaneVR.Framework.ControllerInput;
 using Oculus.Interaction;
 
 public class SmokerController : MonoBehaviour
 {
     [SerializeField] GameObject smokeParticleSystem;
     [SerializeField] Collider smokerCollider;
+    [SerializeField] HVRPlayerInputs playerRig;
+    [SerializeField] ParticleSystem passiveSmoke, activeSmoke;
     bool isHeld;
 
     // Update is called once per frame
     void Update()
     {
         //Checks to see if isHeld is true (isHeld is set when the smoker is picked up) and then if either trigger is held.
-        //Note: will work if the smoker is in the left hand but the right trigger is held
-        if(isHeld && (OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger) >= 0.8f || OVRInput.Get(OVRInput.Axis1D.SecondaryIndexTrigger) > 0.8f))
+        if (isHeld && ((playerRig.IsLeftTriggerHoldActive == true && playerRig.IsLeftGripHoldActive) || (playerRig.IsRightTriggerHoldActive == true && playerRig.IsRightGripHoldActive)))
         {
-            smokeParticleSystem.SetActive(true);
+            passiveSmoke.Stop();
+            activeSmoke.Play();
             smokerCollider.enabled = true;
         }
         else if (smokeParticleSystem.activeSelf == true)
         {
             Debug.Log("Conditions not met");
-            smokeParticleSystem.SetActive(false);
+            passiveSmoke.Play();
+            activeSmoke.Stop();
             smokerCollider.enabled = false;
         }
     }
@@ -44,14 +48,28 @@ public class SmokerController : MonoBehaviour
         if(other.CompareTag("BeeSwarm"))
         {
             ParticleSystem ps = other.GetComponentInChildren<ParticleSystem>();
-            var main = ps.main;
+            var emission = ps.emission;
+            emission.rateOverTime = 15;
 
-            main.maxParticles = 50;
-
-            AudioSource audioSource = other.GetComponent<AudioSource>();
+            AudioSource audioSource = other.GetComponentInChildren<AudioSource>();
             audioSource.volume -= 0.1f;
 
             Debug.Log("Smoking Bees");
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("BeeSwarm"))
+        {
+            ParticleSystem ps = other.GetComponentInChildren<ParticleSystem>();
+            var emission = ps.emission;
+            emission.rateOverTime = 75;
+
+            //AudioSource audioSource = other.GetComponent<AudioSource>();
+            //audioSource.volume -= 0.1f;
+
+            Debug.Log("Bees Raging");
         }
     }
 }
