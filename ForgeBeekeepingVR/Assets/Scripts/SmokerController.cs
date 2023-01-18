@@ -1,6 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using HurricaneVR.Framework.Components;
+using HurricaneVR.Framework.Core;
+using HurricaneVR.Framework.Core.Grabbers;
+using HurricaneVR.Framework.Core.Utils;
+using HurricaneVR.Framework.Shared;
+using Oculus.Interaction;
 
 public class SmokerController : MonoBehaviour
 {
@@ -13,7 +19,7 @@ public class SmokerController : MonoBehaviour
     {
         //Checks to see if isHeld is true (isHeld is set when the smoker is picked up) and then if either trigger is held.
         //Note: will work if the smoker is in the left hand but the right trigger is held
-        if(isHeld && (OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger) || OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger)))
+        if(isHeld && (OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger) == 1.0f || OVRInput.Get(OVRInput.Axis1D.SecondaryIndexTrigger) == 1.0f))
         {
             smokeParticleSystem.SetActive(true);
             smokerCollider.enabled = true;
