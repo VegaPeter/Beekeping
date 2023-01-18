@@ -3,7 +3,12 @@ guid: 8a37a65dafc090a4b99694ae2018221c
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Hive_Tool
+    second: {fileID: 2100000, guid: 47041d8acf7760240843c9b37f8df725, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

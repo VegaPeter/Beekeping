@@ -3,7 +3,27 @@ guid: 8e26fcb4ac85b3f40897025e6b6fe0eb
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Smoker_Bellow
+    second: {fileID: 2100000, guid: f59cb92f3e2020a4aae3b96bc87467e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Smoker_Cage
+    second: {fileID: 2100000, guid: f274362edcc91114fb78fcea4a382922, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Smoker_Metal
+    second: {fileID: 2100000, guid: e2b717af27e17714880e14c53f3ce153, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Smoker_Wood
+    second: {fileID: 2100000, guid: 7e3b3dc1dddfbd34a9c362eb7cb8631e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

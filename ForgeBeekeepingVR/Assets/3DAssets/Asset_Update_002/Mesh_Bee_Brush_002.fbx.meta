@@ -3,7 +3,17 @@ guid: 41a65e6044a03914db1af1f75a446cbd
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Bee_Brush_Bristles
+    second: {fileID: 2100000, guid: 9f6de9ff8b66b8f4b9bec55962bfcf6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Bee_Brush_Handle
+    second: {fileID: 2100000, guid: c39413c35aba08b45876e0ec3f7b4de3, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

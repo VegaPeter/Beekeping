@@ -3,7 +3,17 @@ guid: ac70b84268f333d4daf90f4582710ced
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Uncapping_Fork_Comb
+    second: {fileID: 2100000, guid: 71b0929aed1fdc54fb5e6cb2c217e7b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Uncapping_Fork_Handle
+    second: {fileID: 2100000, guid: c33899590d2f06a4ba3dddc339372cec, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,17 @@ guid: b09103bbe9ce42e42a109373126bb16c
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Frame_Grip_Handles
+    second: {fileID: 2100000, guid: 73c5ff49d54f12d4cbb430efafe92265, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Frame_Grip_Springs
+    second: {fileID: 2100000, guid: bc9677ad65699af489d1e8ee0e6b3a93, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
