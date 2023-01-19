@@ -172,8 +172,8 @@
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Components\HVRGrabbableImpactHaptics.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Core\Player\HVRTeleportMarker.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Core\HandPoser\HVRHandTrigger.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Scripts\Components\HVRClimbable.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Core\Bags\HVRTriggerGrabbableBag.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Scripts\Components\HVRClimbable.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Core\Player\HVRJointHand.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Weapons\Guns\HVRGunBase.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Components\HVRLever.cs" />
@@ -192,8 +192,8 @@
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Oculus\HVROculusHandAnimator.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Core\ScriptableObjects\PDStrength.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Weapons\HVRShotgunMagazine.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Scripts\Core\Stabbing\HVRStabbableSettings.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Weapons\Bow\HVRArrowLoader.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Scripts\Core\Stabbing\HVRStabbableSettings.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Components\HVRDamageHandler.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\ControllerInput\InputEvents\HVRTrackPadRightEvents.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Core\Utils\Utils.cs" />
@@ -252,8 +252,8 @@
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Core\Utils\SFXPlayer.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Core\Player\HVRInvalidTeleport.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Core\HandPoser\Data\HVRPosableBoneData.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Scripts\Core\UI\HVRGraphicRaycaster.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\ControllerInput\InputEvents\HVRTrackpadButtonEvents.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Scripts\Core\UI\HVRGraphicRaycaster.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Components\HVRDontDestroy.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Components\HVRRotationSFX.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\ControllerInput\InputEvents\HVRJoystickTouchEvents.cs" />
@@ -543,8 +543,20 @@
     <Reference Include="HurricaneVR.Update">
       <HintPath>Assets\HurricaneVR\Framework\Editor\Libs\HurricaneVR.Update.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

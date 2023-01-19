@@ -62,8 +62,8 @@
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Lib\Conduit\Editor\ManifestGenerator.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Lib\Conduit\Editor\ConduitStatistics.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Lib\Conduit\Editor\PersistenceLayer.cs" />
-    <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Lib\Conduit\Editor\ConduitAssembly.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Lib\Conduit\Editor\IAssemblyWalker.cs" />
+    <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Lib\Conduit\Editor\ConduitAssembly.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Lib\Conduit\Editor\IPersistenceLayer.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -331,8 +331,20 @@
     <Reference Include="HurricaneVR.Update">
       <HintPath>Assets\HurricaneVR\Framework\Editor\Libs\HurricaneVR.Update.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>

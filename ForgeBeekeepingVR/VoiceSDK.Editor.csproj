@@ -53,6 +53,7 @@
     <UnityVersion>2021.3.16f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Oculus\Voice\Scripts\Editor\Windows\VoiceSDKWizardWindow.cs" />
     <Compile Include="Assets\Oculus\Voice\Scripts\Editor\Data\VoiceSDKDataCreation.cs" />
     <Compile Include="Assets\Oculus\Voice\Scripts\Editor\Utility\VoiceSDKStyles.cs" />
     <Compile Include="Assets\Oculus\Voice\Scripts\Editor\Utility\VoiceSDKMenu.cs" />
@@ -65,7 +66,6 @@
     <Compile Include="Assets\Oculus\Voice\Scripts\Editor\Windows\AboutWindow.cs" />
     <Compile Include="Assets\Oculus\Voice\Scripts\Editor\Utility\VoiceSDKVersion.cs" />
     <Compile Include="Assets\Oculus\Voice\Scripts\Editor\Windows\VoiceApplicationDetailProvider.cs" />
-    <Compile Include="Assets\Oculus\Voice\Scripts\Editor\Windows\VoiceSDKWizardWindow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Oculus\Voice\Scripts\Editor\VoiceSDK.Editor.asmdef" />
@@ -332,8 +332,20 @@
     <Reference Include="HurricaneVR.Update">
       <HintPath>Assets\HurricaneVR\Framework\Editor\Libs\HurricaneVR.Update.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
