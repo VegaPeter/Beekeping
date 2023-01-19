@@ -6,6 +6,7 @@ public class BeeHiveController : MonoBehaviour
 {
     [SerializeField] ParticleSystem beeParticles;
     [SerializeField] AudioSource beeAudio;
+
     private float startVolume;
 
     // Start is called before the first frame update
@@ -28,7 +29,7 @@ public class BeeHiveController : MonoBehaviour
             case 0:
                 //Bees are smoked and at the lowest aggression
                 emission.rateOverTime = 15;
-                while (beeAudio.volume > 0) { beeAudio.volume -= startVolume * Time.deltaTime; }
+                while (beeAudio.volume >= 0.036f) { beeAudio.volume -= startVolume * Time.deltaTime; }
                 StartCoroutine(BeesRecovering());
                 break;
             case 1:
@@ -39,10 +40,12 @@ public class BeeHiveController : MonoBehaviour
             case 2:
                 //Bees are angry that the hive is being interferred with
                 emission.rateOverTime = 75;
+                while (beeAudio.volume <= 0.26f) { beeAudio.volume += startVolume * Time.deltaTime; }
                 break;
             case 3:
                 //Bees are swarming to protect their queen
                 emission.rateOverTime = 100;
+                while (beeAudio.volume <= 0.5f) { beeAudio.volume += startVolume * Time.deltaTime; }
                 break;
             default:
                 break;

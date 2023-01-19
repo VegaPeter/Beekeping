@@ -11,7 +11,6 @@ using Oculus.Interaction;
 
 public class SmokerController : MonoBehaviour
 {
-    [SerializeField] GameObject smokeParticleSystem;
     [SerializeField] Collider smokerCollider;
     [SerializeField] HVRPlayerInputs playerRig;
     [SerializeField] ParticleSystem passiveSmoke, activeSmoke;
@@ -27,7 +26,7 @@ public class SmokerController : MonoBehaviour
             activeSmoke.Play();
             smokerCollider.enabled = true;
         }
-        else if (smokeParticleSystem.activeSelf == true)
+        else
         {
             Debug.Log("Conditions not met");
             passiveSmoke.Play();
@@ -47,14 +46,7 @@ public class SmokerController : MonoBehaviour
     {
         if(other.CompareTag("BeeSwarm"))
         {
-            //ParticleSystem ps = other.GetComponentInChildren<ParticleSystem>();
-            //var emission = ps.emission;
-            //emission.rateOverTime = 15;
-
             other.gameObject.GetComponent<BeeHiveController>().BeeAgressionManager(0);
-
-            AudioSource audioSource = other.GetComponentInChildren<AudioSource>();
-            audioSource.volume -= 0.1f;
 
             Debug.Log("Smoking Bees");
         }
@@ -64,8 +56,6 @@ public class SmokerController : MonoBehaviour
     {
         if (other.CompareTag("BeeSwarm"))
         {
-            //Call coroutine to 
-
             Debug.Log("Bees Raging");
         }
     }
