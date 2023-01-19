@@ -47,9 +47,11 @@ public class SmokerController : MonoBehaviour
     {
         if(other.CompareTag("BeeSwarm"))
         {
-            ParticleSystem ps = other.GetComponentInChildren<ParticleSystem>();
-            var emission = ps.emission;
-            emission.rateOverTime = 15;
+            //ParticleSystem ps = other.GetComponentInChildren<ParticleSystem>();
+            //var emission = ps.emission;
+            //emission.rateOverTime = 15;
+
+            other.gameObject.GetComponent<BeeHiveController>().BeeAgressionManager(0);
 
             AudioSource audioSource = other.GetComponentInChildren<AudioSource>();
             audioSource.volume -= 0.1f;
@@ -62,12 +64,7 @@ public class SmokerController : MonoBehaviour
     {
         if (other.CompareTag("BeeSwarm"))
         {
-            ParticleSystem ps = other.GetComponentInChildren<ParticleSystem>();
-            var emission = ps.emission;
-            emission.rateOverTime = 75;
-
-            //AudioSource audioSource = other.GetComponent<AudioSource>();
-            //audioSource.volume -= 0.1f;
+            //Call coroutine to 
 
             Debug.Log("Bees Raging");
         }
