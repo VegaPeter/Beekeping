@@ -56,39 +56,39 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRGunPartEditor.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRPosableHandEditor.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRGunBoltEditor.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRPhysicsLeverCreatorEditor.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRRotationLimiterEditor.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Editor\EmbeddedAssetEditor.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRManagementWindow.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRButtonEditor.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Editor\DefaultEditor.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Editor\HVREditorPreferences.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRGunCreator.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRPhysicsButtonEditor.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRSocketableTagDrawer.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Editor\DrawIfPropertyDrawer.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRPhysicsPoserEditor.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRSocketableTagsEditor.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Editor\HVREditorManager.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRPhysicsDialEditor.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRGunPartEditor.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRCommentsInspector.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRPosableHandEditor.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRGunBoltEditor.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRPhysicsDrawerEditor.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRPhysicsLeverCreatorEditor.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Editor\LayerMaskDrawer.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRRotationLimiterEditor.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Editor\EmbeddedAssetEditor.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRCockingHandleEditor.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRHandSetup.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRCockingHandleEditor.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRHandPoserEditor.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRManagementWindow.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRSetupWindow.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRButtonEditor.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Editor\EnumFlagDrawer.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Editor\CustomContexts.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRTriggerAnimatorEditor.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRSocketableEditor.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Editor\EmbeddedAssetDrawer.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Editor\DefaultEditor.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRSocketableTagDropDown.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Editor\HVREditorPreferences.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRGunCreator.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRPhysicsButtonEditor.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRSocketableTagDrawer.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Editor\HVRStabberEditor.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Editor\HVREditorExtensions.cs" />
-    <Compile Include="Assets\HurricaneVR\Framework\Editor\DrawIfPropertyDrawer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\HurricaneVR\Framework\Editor\HurricaneVR.Editor.asmdef" />

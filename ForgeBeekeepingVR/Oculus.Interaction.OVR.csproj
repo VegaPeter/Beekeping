@@ -57,9 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Oculus\Interaction\OVRIntegration\Runtime\Scripts\Input\SetDisplayRefresh.cs" />
-    <Compile Include="Assets\Oculus\Interaction\OVRIntegration\Runtime\Scripts\Input\AnimatedHandOVR.cs" />
     <Compile Include="Assets\Oculus\Interaction\OVRIntegration\Runtime\Scripts\Input\HandSkeletonOVR.cs" />
-    <Compile Include="Assets\Oculus\Interaction\OVRIntegration\Runtime\Scripts\UnityCanvas\OVRRenderingMode.cs" />
     <Compile Include="Assets\Oculus\Interaction\OVRIntegration\Runtime\Scripts\Input\OVRSkeletonData.cs" />
     <Compile Include="Assets\Oculus\Interaction\OVRIntegration\Runtime\Scripts\Input\FromOVRControllerDataSource.cs" />
     <Compile Include="Assets\Oculus\Interaction\OVRIntegration\Runtime\Scripts\Input\FromOVRHandDataSource.cs" />
@@ -67,8 +65,10 @@
     <Compile Include="Assets\Oculus\Interaction\OVRIntegration\Runtime\Scripts\UnityCanvas\OVRCanvasMeshRenderer.cs" />
     <Compile Include="Assets\Oculus\Interaction\OVRIntegration\Runtime\Scripts\Input\OVRControllerVisual.cs" />
     <Compile Include="Assets\Oculus\Interaction\OVRIntegration\Runtime\Scripts\Input\FromOVRHmdDataSource.cs" />
-    <Compile Include="Assets\Oculus\Interaction\OVRIntegration\Runtime\Scripts\Input\OVRCameraRigRef.cs" />
     <Compile Include="Assets\Oculus\Interaction\OVRIntegration\Runtime\Scripts\Input\FromOVRControllerHandDataSource.cs" />
+    <Compile Include="Assets\Oculus\Interaction\OVRIntegration\Runtime\Scripts\Input\AnimatedHandOVR.cs" />
+    <Compile Include="Assets\Oculus\Interaction\OVRIntegration\Runtime\Scripts\UnityCanvas\OVRRenderingMode.cs" />
+    <Compile Include="Assets\Oculus\Interaction\OVRIntegration\Runtime\Scripts\Input\OVRCameraRigRef.cs" />
     <Compile Include="Assets\Oculus\Interaction\OVRIntegration\Runtime\Scripts\Input\TrackingToWorldTransformerOVR.cs" />
   </ItemGroup>
   <ItemGroup>
