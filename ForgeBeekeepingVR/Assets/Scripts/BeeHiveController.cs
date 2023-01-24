@@ -6,6 +6,7 @@ public class BeeHiveController : MonoBehaviour
 {
     [SerializeField] ParticleSystem beeParticles;
     [SerializeField] AudioSource beeAudio;
+    [SerializeField] GameObject hiveFrame1, hiveFrame2, hiveFrame3, innerCover;
 
     private float startVolume;
 
@@ -13,6 +14,10 @@ public class BeeHiveController : MonoBehaviour
     void Start()
     {
         startVolume = beeAudio.volume;
+        hiveFrame1.SetActive(false);
+        hiveFrame2.SetActive(false);
+        hiveFrame3.SetActive(false);
+        innerCover.SetActive(true);
     }
 
     // Update is called once per frame
@@ -33,6 +38,7 @@ public class BeeHiveController : MonoBehaviour
                 velocity.speedModifier = 0.5f;
                 while (beeAudio.volume >= 0.036f) { beeAudio.volume -= startVolume * Time.deltaTime; }
                 StartCoroutine(BeesRecovering());
+                Debug.Log("Bees are high af");
                 break;
             case 1:
                 //Bees are at the default level and currently aren't swarming
@@ -40,12 +46,14 @@ public class BeeHiveController : MonoBehaviour
                 velocity.speedModifier = 1;
                 while (beeAudio.volume <= startVolume) { beeAudio.volume += startVolume * Time.deltaTime; }
                 StopCoroutine(BeesRecovering());
+                Debug.Log("Bees are upset");
                 break;
             case 2:
                 //Bees are angry that the hive is being interferred with
                 emission.rateOverTime = 75;
                 velocity.speedModifier = 1.2f;
                 while (beeAudio.volume <= 0.26f) { beeAudio.volume += startVolume * Time.deltaTime; }
+                Debug.Log("Bees are angry");
                 break;
             case 3:
                 //Bees are swarming to protect their queen
@@ -70,5 +78,25 @@ public class BeeHiveController : MonoBehaviour
     {
         yield return new WaitForSeconds(20);
         BeeAgressionManager(1);
+    }
+    
+    private IEnumerator CoverRemoved()
+    {
+        yield return new WaitForSeconds(1.5f);
+
+        hiveFrame1.SetActive(true);
+        hiveFrame2.SetActive(true);
+        hiveFrame3.SetActive(true);
+
+        yield return new WaitForSeconds(1.5f);
+
+        innerCover.SetActive(false);
+    }
+
+    public void HiveCoverRemoved()
+    {
+        StartCoroutine(CoverRemoved());
+        StopCoroutine(CoverRemoved());
+        BeeAgressionManager(2);
     }
 }

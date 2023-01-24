@@ -3,7 +3,42 @@ guid: e52378bf0f5db254aad32ec60528252c
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Brood_Hive_Body
+    second: {fileID: 2100000, guid: 8448d987ec041474fbc3b969f983cdb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Frame_Brood
+    second: {fileID: 2100000, guid: 3a32ae49de59d5c4db78def5eb0d80de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Frame_Super
+    second: {fileID: 2100000, guid: c8fa6140420d7e045b7de8202f83adfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Inner_Cover
+    second: {fileID: 2100000, guid: 810784247a2b0394eb7ac27f01479614, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Outer_Cover
+    second: {fileID: 2100000, guid: 4e1d4fd385b6ffe418272485fc5d2100, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Queen_Extruder
+    second: {fileID: 2100000, guid: da259b17eb35359438e02df170df7521, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Super
+    second: {fileID: 2100000, guid: a0e1e3e210d983e4dafc62d49a3adf0b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

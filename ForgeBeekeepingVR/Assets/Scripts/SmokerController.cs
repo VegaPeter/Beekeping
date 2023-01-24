@@ -56,7 +56,7 @@ public class SmokerController : MonoBehaviour
     {
         if (other.CompareTag("BeeSwarm"))
         {
-            Debug.Log("Bees Raging");
+            //Debug.Log("Bees Raging");
         }
     }
 }

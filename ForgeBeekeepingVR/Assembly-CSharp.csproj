@@ -116,6 +116,7 @@
     <Compile Include="Assets\HurricaneVR\TechDemo\Scripts\DemoBackpack.cs" />
     <Compile Include="Assets\Scripts\FrameGripController.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\Firebase\AnalyticsUI.cs" />
+    <Compile Include="Assets\Scripts\HiveTool.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Scripts\DistanceGrabberSample.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Scripts\Ui\UiSceneMenu.cs" />
     <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\HandsManager.cs" />
