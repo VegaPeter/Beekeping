@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class UncappingFork : MonoBehaviour
 {
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +15,15 @@ public class UncappingFork : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.CompareTag("CappedHoney"))
+        {
+            //swap texture
+            //spawn honey
+            //play uncapping sound
+        }
     }
 }
