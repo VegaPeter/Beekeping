@@ -91,12 +91,15 @@ public class BeeHiveController : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
 
         innerCover.SetActive(false);
+
+        yield return new WaitForSeconds(1);
+
+        BeeAgressionManager(2);
     }
 
     public void HiveCoverRemoved()
     {
         StartCoroutine(CoverRemoved());
         StopCoroutine(CoverRemoved());
-        BeeAgressionManager(2);
     }
 }
