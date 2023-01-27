@@ -20,7 +20,7 @@ public class FrameGripController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("HiveFrame") && frameToolHeld)
+        if (other.CompareTag("HiveFrame"))
         {
             other.GetComponent<GameObject>().transform.parent = this.transform;
             frameGrabbed = true;
