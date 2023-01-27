@@ -1171,17 +1171,6 @@ ForgeBeekeepingVR/Assets/Plugins/Zibra/Liquids/Shaders/VisualizeSDF.shader
 ForgeBeekeepingVR/Assets/Plugins/Zibra/Liquids/Shaders/VisualizeSDF.shader.meta
 ForgeBeekeepingVR/Assets/Plugins/Zibra/Liquids/ZibraAILiquid.asmdef
 ForgeBeekeepingVR/Assets/Plugins/Zibra/Liquids/ZibraAILiquid.asmdef.meta
-ForgeBeekeepingVR/Assets/Scenes/Forest Demo Scene 1.unity
-ForgeBeekeepingVR/Assets/Scenes/MainMenuScene.meta
-ForgeBeekeepingVR/Assets/Scenes/MainMenuScene.unity
-ForgeBeekeepingVR/Assets/Scenes/MainMenuScene.unity.meta
-ForgeBeekeepingVR/Assets/Scenes/MainMenuScene/LightingData.asset
-ForgeBeekeepingVR/Assets/Scenes/MainMenuScene/LightingData.asset.meta
-ForgeBeekeepingVR/Assets/Scenes/MainMenuScene/ReflectionProbe-0.exr
-ForgeBeekeepingVR/Assets/Scenes/MainMenuScene/ReflectionProbe-0.exr.meta
-ForgeBeekeepingVR/Assets/Scenes/MainMenuScene/ReflectionProbe-1.exr
-ForgeBeekeepingVR/Assets/Scenes/MainMenuScene/ReflectionProbe-1.exr.meta
-ForgeBeekeepingVR/Assets/Scripts/FrameGripController.cs
 ForgeBeekeepingVR/Assets/XR/Settings/OpenXR Package Settings.asset
 ForgeBeekeepingVR/AssistantCoreSDKEditor.csproj
 ForgeBeekeepingVR/AssistantCoreSDKRuntime.csproj
