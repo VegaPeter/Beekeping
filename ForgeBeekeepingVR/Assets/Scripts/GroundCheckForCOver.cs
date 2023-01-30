@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class GroundCheckForCOver : MonoBehaviour
 {
+    [SerializeField] GameObject beehiveScript;
     private void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Ground"))
         {
-            this.GetComponent<BeeHiveController>().HiveCoverRemoved();
+            beehiveScript.GetComponent<BeeHiveController>().HiveCoverRemoved();
+            Debug.Log("On tha ground");
         }
     }
 }
