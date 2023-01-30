@@ -14,24 +14,36 @@ public class SmokerController : MonoBehaviour
     [SerializeField] Collider smokerCollider;
     [SerializeField] HVRPlayerInputs playerRig;
     [SerializeField] ParticleSystem passiveSmoke, activeSmoke;
-    bool isHeld;
+    bool isHeld, isLit;
+
+    public bool IsLit { get; set; }
 
     // Update is called once per frame
     void Update()
     {
-        //Checks to see if isHeld is true (isHeld is set when the smoker is picked up) and then if either trigger is held.
-        if (isHeld && ((playerRig.IsLeftTriggerHoldActive == true && playerRig.IsLeftGripHoldActive) || (playerRig.IsRightTriggerHoldActive == true && playerRig.IsRightGripHoldActive)))
+        if (isLit)
         {
-            passiveSmoke.Stop();
-            activeSmoke.Play();
-            smokerCollider.enabled = true;
+            passiveSmoke.Play();
+
+            //Checks to see if isHeld is true (isHeld is set when the smoker is picked up) and then if either trigger is held.
+            if (isHeld && ((playerRig.IsLeftTriggerHoldActive == true && playerRig.IsLeftGripHoldActive) || (playerRig.IsRightTriggerHoldActive == true && playerRig.IsRightGripHoldActive)))
+            {
+                passiveSmoke.Stop();
+                activeSmoke.Play();
+                smokerCollider.enabled = true;
+            }
+            else
+            {
+                Debug.Log("Conditions not met");
+                passiveSmoke.Play();
+                activeSmoke.Stop();
+                smokerCollider.enabled = false;
+            }
         }
         else
         {
-            Debug.Log("Conditions not met");
-            passiveSmoke.Play();
+            passiveSmoke.Stop();
             activeSmoke.Stop();
-            smokerCollider.enabled = false;
         }
     }
 
@@ -58,5 +70,10 @@ public class SmokerController : MonoBehaviour
         {
             //Debug.Log("Bees Raging");
         }
+    }
+
+    public void LightSmoker()
+    {
+        isLit = !isLit;
     }
 }

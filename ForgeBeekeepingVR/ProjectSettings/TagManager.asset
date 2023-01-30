@@ -8,6 +8,7 @@ TagManager:
   - projectile
   - HiveFrame
   - Ground
+  - RightHandIndex
   layers:
   - Default
   - TransparentFX
