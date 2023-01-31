@@ -64,14 +64,6 @@ public class SmokerController : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("BeeSwarm"))
-        {
-            //Debug.Log("Bees Raging");
-        }
-    }
-
     public void LightSmoker()
     {
         isLit = !isLit;

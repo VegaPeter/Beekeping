@@ -20,12 +20,6 @@ public class BeeHiveController : MonoBehaviour
         innerCover.SetActive(true);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void BeeAgressionManager(int currentAgroLevel)
     {
         var emission = beeParticles.emission;
