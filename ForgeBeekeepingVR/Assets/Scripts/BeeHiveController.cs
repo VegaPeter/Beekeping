@@ -90,6 +90,10 @@ public class BeeHiveController : MonoBehaviour
 
         yield return new WaitForSeconds(1.5f);
 
+        hiveFrame1.GetComponentInChildren<MeshRenderer>().enabled = true;
+        hiveFrame2.GetComponentInChildren<MeshRenderer>().enabled = true;
+        hiveFrame3.GetComponentInChildren<MeshRenderer>().enabled = true;
+
         innerCover.SetActive(false);
 
         yield return new WaitForSeconds(1);
