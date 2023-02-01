@@ -14,7 +14,7 @@ public class SmokerController : MonoBehaviour
     [SerializeField] Collider smokerCollider;
     [SerializeField] HVRPlayerInputs playerRig;
     [SerializeField] ParticleSystem passiveSmoke, activeSmoke;
-    bool isHeld, isLit;
+    bool isHeld, isLit = true; //defaulted isLit to true for now
 
     public bool IsLit { get; set; }
 
