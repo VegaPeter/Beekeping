@@ -70,9 +70,9 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPAudioSource.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Oculus\Spatializer\Plugins\x86\AudioPluginOculusSpatializer.dll" />
     <None Include="Assets\Oculus\Spatializer\Plugins\x86_64\AudioPluginOculusSpatializer.dll" />
     <None Include="Assets\Oculus\Spatializer\Oculus.Spatializer.asmdef" />
+    <None Include="Assets\Oculus\Spatializer\Plugins\x86\AudioPluginOculusSpatializer.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -1,14 +1,18 @@
-2.91c
 
-Fix Oculus and WMR menu button bindings for OpenXR
-Fix HVRCockingHandle to handle initial grab offset better
+2.9.1e
+HVRGrabbable: new overridable function CanHandGrab for grab filtering.
+HVRHandGrabFilter - abstract base class for modular hand grab filtering
+HVRGrabHandFilter - new component for hvrgrabbable to limit which hand can grab
+Example scene updated for grab hand filter
 
-2.91
+2.9.1
 
 Fixed bug where the grab joint might end up on the wrong game object if the grabbable was a child of the rigidbody.
 Fixed player controller to take into account the angle of the surface the player is standing on.
 Fixed bug where child grabbables could be grabbed if their MasterGrabbable was socketed.
 Added backpack rigs to hexabody integration.
+Fix Oculus and WMR menu button bindings for OpenXR
+Fix HVRCockingHandle to handle initial grab offset better
 
 Hand Strength Updates:
 	JointSettings on the hand and grabbable components are now deprecated, they will continue to work but will be removed in a future update. 

@@ -361,6 +361,7 @@ namespace HurricaneVR.Framework.Core
         private bool _waitingForColDetectionReset;
         private Coroutine _resetCollisionDetectionRoutine;
         private readonly HashSet<Collider> _ignoredColliders = new HashSet<Collider>();
+        private readonly List<HVRHandGrabFilter> _filters = new List<HVRHandGrabFilter>();
 
         #endregion
 
@@ -382,6 +383,7 @@ namespace HurricaneVR.Framework.Core
                 PopulateGrabPoints();
 
             LoadGrabPoints();
+            LoadFilters();
 
             Socketable = GetComponent<HVRSocketable>();
 
@@ -903,6 +905,15 @@ namespace HurricaneVR.Framework.Core
             return false;
         }
 
+        public virtual bool CanHandGrab(HVRHandGrabber hand)
+        {
+            foreach(var filter in _filters)
+                if (!filter.CanBeGrabbed(hand))
+                    return false;
+            
+            return true;
+        }
+
         #endregion
 
         #region Protected Methods
@@ -1200,6 +1211,12 @@ namespace HurricaneVR.Framework.Core
         }
 
 
+        public void LoadFilters()
+        {
+            _filters.Clear();
+            _filters.AddRange(GetComponents<HVRHandGrabFilter>());
+        }
+        
         /// <summary>
         /// Locates colliders that are used for line of sight checking and for collision disabling with the grabbing hand when held.
         /// </summary>

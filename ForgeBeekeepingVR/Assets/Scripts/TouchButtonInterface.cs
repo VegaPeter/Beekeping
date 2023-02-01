@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class TouchButtonInterface : MonoBehaviour
 {
     [SerializeField] SmokerController SC;
+    [SerializeField] TextMeshProUGUI buttonText;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -17,8 +18,8 @@ public class TouchButtonInterface : MonoBehaviour
             btn.onClick.Invoke();
 
             //Changing the button's display
-            if(SC.IsLit) {btn.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "Smother Smoker";}
-            else {btn.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "Light Smoker";}
+            if(SC.IsLit) {buttonText.text = "Smother Smoker";}
+            else {buttonText.text = "Light Smoker";}
         }
     }
 }

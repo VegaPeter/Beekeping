@@ -1,3 +1,12 @@
+2.9.1e            
+
+New:
+
+HVRGrabbable: new overridable function CanHandGrab for grab filtering.
+HVRHandGrabFilter - abstract base class for modular hand grab filtering
+HVRGrabHandFilter - new component for hvrgrabbable to limit which hand can grab
+Example scene updated for grab hand filter
+
 2.9.1d
 
 Fix Oculus and WMR menu button bindings for OpenXR

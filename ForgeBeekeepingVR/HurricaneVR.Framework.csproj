@@ -104,6 +104,7 @@
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Components\HVRDial.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Core\Utils\EditorExtensions.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Core\HVRSettings.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Scripts\Core\HVRGrabHandFilter.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Core\HVRHandGrabEvent.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\ControllerInput\InputEvents\HVRPrimaryTouchButtonEvents.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Components\HVRImpactHapticsBase.cs" />
@@ -270,6 +271,7 @@
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Shared\Utilities\CircularBuffer.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Core\Utils\HVRComments.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Core\HandPoser\Data\HVRHandPoseData.cs" />
+    <Compile Include="Assets\HurricaneVR\Framework\Scripts\Core\HVRHandGrabFilter.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Core\Utils\PhysicsExtensions.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\ControllerInput\HVRTrackedController.cs" />
     <Compile Include="Assets\HurricaneVR\Framework\Scripts\Core\Utils\SFXPlayer.cs" />

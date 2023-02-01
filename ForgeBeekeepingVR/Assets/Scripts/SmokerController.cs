@@ -40,11 +40,6 @@ public class SmokerController : MonoBehaviour
                 smokerCollider.enabled = false;
             }
         }
-        else
-        {
-            passiveSmoke.Stop();
-            activeSmoke.Stop();
-        }
     }
 
     //Sets the isHeld variable to what it is currently not, isHeld is initialised as false

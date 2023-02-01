@@ -209,6 +209,9 @@ namespace HurricaneVR.Framework.Core.Grabbers
 
         public override bool CanGrab(HVRGrabbable grabbable)
         {
+            if (!grabbable.CanHandGrab(HandGrabber))
+                return false;
+            
             if (grabbable.IsSocketed)
                 return false;
 

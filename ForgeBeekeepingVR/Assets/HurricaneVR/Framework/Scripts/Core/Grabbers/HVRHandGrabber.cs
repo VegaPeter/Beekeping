@@ -182,6 +182,9 @@ namespace HurricaneVR.Framework.Core.Grabbers
 
         public override bool IsHandGrabber => true;
 
+        public bool IsLeftHand => HandSide == HVRHandSide.Left;
+        public bool IsRightHand => HandSide == HVRHandSide.Right;
+        
         public HVRHandStrengthHandler StrengthHandler { get; set; }
 
         public Transform HandModelParent { get; private set; }
@@ -1350,7 +1353,12 @@ namespace HurricaneVR.Framework.Core.Grabbers
 
         protected virtual bool CanGrabFromSocket(HVRSocket socket)
         {
-            if (!socket)
+            if (!socket || !socket.GrabbedTarget)
+            {
+                return false;
+            }
+
+            if (!socket.GrabbedTarget.CanHandGrab(this))
             {
                 return false;
             }
@@ -1360,7 +1368,7 @@ namespace HurricaneVR.Framework.Core.Grabbers
                 return false;
             }
 
-            return socket.GrabDetectionType == HVRGrabDetection.Socket && socket.GrabbedTarget;
+            return socket.GrabDetectionType == HVRGrabDetection.Socket;
         }
 
         protected virtual void CheckSocketHover()
@@ -1740,6 +1748,9 @@ namespace HurricaneVR.Framework.Core.Grabbers
             if (!base.CanGrab(grabbable))
                 return false;
 
+            if (!grabbable.CanHandGrab(this))
+                return false;
+            
             if ((!AllowMultiplayerSwap && !grabbable.AllowMultiplayerSwap) && grabbable.HoldType != HVRHoldType.ManyHands && grabbable.AnyGrabberNotMine())
             {
                 return false;
