@@ -30,7 +30,7 @@ public class BeeHiveController : MonoBehaviour
                 //Bees are smoked and at the lowest aggression
                 emission.rateOverTime = 15;
                 velocity.speedModifier = 0.5f;
-                while (beeAudio.volume >= 0.036f) { beeAudio.volume -= startVolume * Time.deltaTime; }
+                while (beeAudio.volume >= 0.05f) { beeAudio.volume -= startVolume * Time.deltaTime; }
                 StartCoroutine(BeesRecovering());
                 Debug.Log("Bees are high af");
                 break;
