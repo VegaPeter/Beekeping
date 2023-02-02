@@ -53,7 +53,7 @@ public class SmokerController : MonoBehaviour
     {
         if(other.CompareTag("BeeSwarm"))
         {
-            other.gameObject.GetComponent<BeeHiveController>().BeeAgressionManager(0);
+            other.gameObject.GetComponentInParent<BeeHiveController>().BeeAgressionManager(0);
 
             Debug.Log("Smoking Bees");
         }

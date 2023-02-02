@@ -15,11 +15,12 @@ public class TouchButtonInterface : MonoBehaviour
         {
             Button btn;
             btn = this.gameObject.GetComponent<Button>();
+            btn.Select();
             btn.onClick.Invoke();
 
             //Changing the button's display
-            if(SC.IsLit) {buttonText.text = "Smother Smoker";}
-            else {buttonText.text = "Light Smoker";}
+            //if(SC.IsLit) {buttonText.text = "Smother Smoker";}
+            //else {buttonText.text = "Light Smoker";}
         }
     }
 }
