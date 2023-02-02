@@ -48,6 +48,7 @@ public class HoneyStrainer : MonoBehaviour
 
     private void SpawnStrainedHoney()
     {
+        strainedHoney = false;
         Instantiate(honeyForSale, new Vector3(0, 0, 0), Quaternion.identity);
     }
 }
