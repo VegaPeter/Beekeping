@@ -9,6 +9,7 @@ TagManager:
   - HiveFrame
   - Ground
   - RightHandIndex
+  - HoneyBucket
   layers:
   - Default
   - TransparentFX
