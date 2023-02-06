@@ -54,4 +54,9 @@ public class HoneyStrainer : MonoBehaviour
         strainedHoney = false;
         Instantiate(honeyForSale, new Vector3(0, 0, 0), Quaternion.identity);
     }
+
+    public void Debugger()
+    {
+        Debug.Log("why does the button press itself?");
+    }
 }
