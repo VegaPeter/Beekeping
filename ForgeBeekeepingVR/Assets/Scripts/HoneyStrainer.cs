@@ -29,7 +29,7 @@ public class HoneyStrainer : MonoBehaviour
             honeyInStrainer.SetActive(true);
             bucketController = other.GetComponent<BucketController>();
 
-            while(honeyInStrainer.transform.position.y <= 5f)
+            while(honeyInStrainer.transform.position.y <= 2f)
             {
                 honeyInStrainer.transform.position += new Vector3(0, .3f, 0);
             }
@@ -49,10 +49,10 @@ public class HoneyStrainer : MonoBehaviour
         StopCoroutine(StrainingHoney());
     }
 
-    private void SpawnStrainedHoney()
+    public void SpawnStrainedHoney()
     {
-        strainedHoney = false;
-        Instantiate(honeyForSale, new Vector3(0, 0, 0), Quaternion.identity);
+        strainedHoney = false; 
+        Instantiate(honeyForSale, new Vector3(106.872f, 30.763f, 87.819f), Quaternion.identity); //Felt lazy and just manually got its world coordinates. 
     }
 
     public void Debugger()

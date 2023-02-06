@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3916860337689186510}
   - component: {fileID: 3916860337689186511}
   - component: {fileID: 3916860337689186508}
+  - component: {fileID: 4218053177632814923}
   m_Layer: 0
   m_Name: Grabbable (HoneyJar)
   m_TagString: Untagged
@@ -162,6 +163,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4218053177632814923
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916860337689186509}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.075935364, y: 0.10989189, z: 0.07665253}
+  m_Center: {x: -0.0008354187, y: -0.0034589767, z: -0.0022850037}
 --- !u!1 &3916860338656080073
 GameObject:
   m_ObjectHideFlags: 0
