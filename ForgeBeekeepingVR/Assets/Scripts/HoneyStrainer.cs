@@ -8,6 +8,7 @@ public class HoneyStrainer : MonoBehaviour
 
     [SerializeField] private GameObject honeyInStrainer;
     [SerializeField] private GameObject honeyForSale;
+    private BucketController bucketController;
 
     public void StartStrainer()
     {
@@ -26,6 +27,7 @@ public class HoneyStrainer : MonoBehaviour
         if(other.CompareTag("HoneyBucket"))
         {
             honeyInStrainer.SetActive(true);
+            bucketController = other.GetComponent<BucketController>();
 
             while(honeyInStrainer.transform.position.y <= 5f)
             {
@@ -34,6 +36,7 @@ public class HoneyStrainer : MonoBehaviour
             Debug.Log("Filled with honey");
 
             filledWithUnstrainedHoney = true;
+            bucketController.EmptyBucket();
         }
     }
 
