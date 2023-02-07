@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HoneyStrainer : MonoBehaviour
 {
-    private bool filledWithUnstrainedHoney,strainedHoney;
+    private bool filledWithUnstrainedHoney = true,strainedHoney;
 
     [SerializeField] private GameObject honeyInStrainer;
     [SerializeField] private GameObject honeyForSale;

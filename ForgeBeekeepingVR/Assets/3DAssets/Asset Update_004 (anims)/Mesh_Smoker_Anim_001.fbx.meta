@@ -56,7 +56,7 @@ ModelImporter:
       name: Armature|ArmatureAction (1)
       takeName: Armature|ArmatureAction
       internalID: 8985345239019802051
-      firstFrame: 0
+      firstFrame: 120
       lastFrame: 160
       wrapMode: 0
       orientationOffsetY: 0
