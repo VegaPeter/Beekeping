@@ -8,10 +8,9 @@ public class EquippingPPE : MonoBehaviour
     [SerializeField] GameObject helmetMeshScreen;
     [SerializeField] AudioSource zipSound;
 
-    // Update is called once per frame
-    void Update()
+    private void Awake()
     {
-        
+        //ppeSuit = this.GetComponent<GameObject>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -20,13 +19,13 @@ public class EquippingPPE : MonoBehaviour
         {
             ppeSuit.SetActive(false);
             //play zipping sound
-            zipSound.Play();
+            //zipSound.Play();
             //equip gloved hands (scary)
             //lower beekeeping helmet mesh
-            while (helmetMeshScreen.transform.localPosition.y >= 3f)
-            {
-                helmetMeshScreen.transform.localPosition -= new Vector3(0, .5f, 0);
-            }
+            //while (helmetMeshScreen.transform.localPosition.y >= 3f)
+            //{
+            //    helmetMeshScreen.transform.localPosition -= new Vector3(0, .5f, 0);
+            //}
         }
     }
 }
