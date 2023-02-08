@@ -10,7 +10,6 @@ public class GroundCheckForCOver : MonoBehaviour
         if(other.CompareTag("Ground"))
         {
             beehiveScript.GetComponent<BeeHiveController>().HiveCoverRemoved();
-            Debug.Log("On tha ground");
         }
     }
 }

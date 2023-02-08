@@ -34,7 +34,6 @@ public class SmokerController : MonoBehaviour
             }
             else
             {
-                Debug.Log("Conditions not met");
                 passiveSmoke.Play();
                 activeSmoke.Stop();
                 smokerCollider.enabled = false;
@@ -46,7 +45,6 @@ public class SmokerController : MonoBehaviour
     public void SmokerIsHeld()
     {
         isHeld = !isHeld;
-        Debug.Log("isHeld: " + isHeld);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -54,8 +52,6 @@ public class SmokerController : MonoBehaviour
         if(other.CompareTag("BeeSwarm"))
         {
             other.gameObject.GetComponentInParent<BeeHiveController>().BeeAgressionManager(0);
-
-            Debug.Log("Smoking Bees");
         }
     }
 

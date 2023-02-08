@@ -10,7 +10,6 @@ public class BeeHiveController : MonoBehaviour
 
     private float startVolume;
 
-    // Start is called before the first frame update
     void Start()
     {
         startVolume = beeAudio.volume;
@@ -32,7 +31,6 @@ public class BeeHiveController : MonoBehaviour
                 velocity.speedModifier = 0.5f;
                 while (beeAudio.volume >= 0.05f) { beeAudio.volume -= startVolume * Time.deltaTime; }
                 StartCoroutine(BeesRecovering());
-                Debug.Log("Bees are high af");
                 break;
             case 1:
                 //Bees are at the default level and currently aren't swarming
@@ -40,14 +38,12 @@ public class BeeHiveController : MonoBehaviour
                 velocity.speedModifier = 1;
                 while (beeAudio.volume <= startVolume) { beeAudio.volume += startVolume * Time.deltaTime; }
                 StopCoroutine(BeesRecovering());
-                Debug.Log("Bees are upset");
                 break;
             case 2:
                 //Bees are angry that the hive is being interferred with
                 emission.rateOverTime = 75;
                 velocity.speedModifier = 1.2f;
                 while (beeAudio.volume <= 0.26f) { beeAudio.volume += startVolume * Time.deltaTime; }
-                Debug.Log("Bees are angry");
                 break;
             case 3:
                 //Bees are swarming to protect their queen
@@ -57,14 +53,6 @@ public class BeeHiveController : MonoBehaviour
                 break;
             default:
                 break;
-        }
-    }
-
-    private void OnTriggerStay(Collider other)
-    {
-        if(other.CompareTag("Player"))
-        {
-            Debug.Log("Evil human detected");  
         }
     }
 
