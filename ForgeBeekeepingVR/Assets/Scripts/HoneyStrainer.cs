@@ -9,12 +9,14 @@ public class HoneyStrainer : MonoBehaviour
     [SerializeField] private GameObject honeyInStrainer;
     [SerializeField] private GameObject honeyForSale;
     [SerializeField] private GameObject strainingTeeth;
-    [SerializeField] private GameObject framesInStrainer;
+    [SerializeField] private GameObject framesInStrainer, frameONEInStrainer, frameTWOInStrainer, frameTHREEInStrainer;
 
     [SerializeField] private Transform targetHoneyPos;
 
     private bool filledWithUnstrainedHoney;
     private bool strainerON;
+
+    public int totalFramesInStrainer = 0;
 
     private void FixedUpdate()
     {
@@ -38,9 +40,31 @@ public class HoneyStrainer : MonoBehaviour
     {
         if(other.CompareTag("Frame"))
         {
-            framesInStrainer.SetActive(true);
+            totalFramesInStrainer++;
+
+            switch (totalFramesInStrainer)
+            {
+                case 1:
+                    frameONEInStrainer.SetActive(true);
+                    break;
+
+                case 2:
+                    frameTWOInStrainer.SetActive(true);
+                    break;
+
+                case 3:
+                    frameTHREEInStrainer.SetActive(true);
+                    break;
+
+                default:
+                    frameONEInStrainer.SetActive(false);
+                    frameTWOInStrainer.SetActive(false);
+                    frameTHREEInStrainer.SetActive(false);
+                    break;
+            }
+
             filledWithUnstrainedHoney = true;
-            other.gameObject.SetActive(false);
+            other.gameObject.GetComponentInChildren<MeshRenderer>().enabled = false;
         }
     }
 
@@ -49,7 +73,11 @@ public class HoneyStrainer : MonoBehaviour
         yield return new WaitForSeconds(20);
 
         filledWithUnstrainedHoney = false;
-        framesInStrainer.SetActive(false);
+
+        frameONEInStrainer.SetActive(false);
+        frameTWOInStrainer.SetActive(false);
+        frameTHREEInStrainer.SetActive(false);
+
         strainerON = false;
 
         honeyInStrainer.transform.localPosition = new Vector3(0, 0.196f, 0);

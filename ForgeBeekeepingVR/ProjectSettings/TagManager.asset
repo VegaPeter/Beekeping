@@ -12,6 +12,7 @@ TagManager:
   - HoneyBucket
   - CappedHoney
   - Frame
+  - Render
   layers:
   - Default
   - TransparentFX

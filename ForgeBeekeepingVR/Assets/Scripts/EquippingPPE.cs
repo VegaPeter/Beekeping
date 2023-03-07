@@ -8,9 +8,28 @@ public class EquippingPPE : MonoBehaviour
     [SerializeField] GameObject helmetMeshScreen;
     [SerializeField] AudioSource zipSound;
 
-    private void Awake()
+    [SerializeField] private BeekeeperHealthManager healthManager;
+
+    //BeeKeeper UI
+    public int downPos, upPos;
+    private bool shouldLowerMesh;
+
+    private void Start()
     {
-        //ppeSuit = this.GetComponent<GameObject>();
+        helmetMeshScreen.transform.position = new Vector3(0,upPos, 0);
+    }
+
+    private void FixedUpdate()
+    {
+        if(shouldLowerMesh)
+        {
+            helmetMeshScreen.transform.position = Vector3.MoveTowards(helmetMeshScreen.transform.position, new Vector3(0, downPos, 0), 0.3f * Time.deltaTime);
+
+            if(helmetMeshScreen.transform.position == new Vector3(0, downPos, 0))
+            {
+                shouldLowerMesh = false;
+            }
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -18,14 +37,16 @@ public class EquippingPPE : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             ppeSuit.SetActive(false);
+
             //play zipping sound
-            //zipSound.Play();
+            zipSound.Play();
+
             //equip gloved hands (scary)
+
             //lower beekeeping helmet mesh
-            //while (helmetMeshScreen.transform.localPosition.y >= 3f)
-            //{
-            //    helmetMeshScreen.transform.localPosition -= new Vector3(0, .5f, 0);
-            //}
+            shouldLowerMesh = true;
+
+            healthManager.equippedPPE = true;
         }
     }
 }

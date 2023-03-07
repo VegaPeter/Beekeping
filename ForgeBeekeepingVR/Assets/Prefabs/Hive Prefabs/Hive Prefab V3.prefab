@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3082487204713729371}
   m_Layer: 0
   m_Name: Grabbable (2)
-  m_TagString: Untagged
+  m_TagString: Frame
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -370,7 +370,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7848087665173169099}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 64.51953, y: 32.211, z: 96.382065}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -800,7 +800,7 @@ GameObject:
   - component: {fileID: 7848087665537689395}
   m_Layer: 0
   m_Name: Mesh_Frame.010
-  m_TagString: Untagged
+  m_TagString: Frame
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2997,7 +2997,7 @@ GameObject:
   - component: {fileID: 7848087666853030459}
   m_Layer: 0
   m_Name: Mesh_Frame.010
-  m_TagString: Untagged
+  m_TagString: Frame
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3239,7 +3239,7 @@ GameObject:
   - component: {fileID: 7848087666913912259}
   m_Layer: 0
   m_Name: Mesh_Frame.010
-  m_TagString: Untagged
+  m_TagString: Frame
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4205,10 +4205,10 @@ SphereCollider:
   m_GameObject: {fileID: 7068848378909803445}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.40112543
-  m_Center: {x: 0, y: -0.09887457, z: 0}
+  m_Radius: 0.8157425
+  m_Center: {x: -0.087272644, y: 0.11324215, z: 0}
 --- !u!114 &7848087667077356223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4227,6 +4227,8 @@ MonoBehaviour:
   hiveFrame2: {fileID: 7848087666684071883}
   hiveFrame3: {fileID: 7848087665033000181}
   innerCover: {fileID: 7848087665795480076}
+  healthManager: {fileID: 0}
+  timeBetweenAttacks: 3
 --- !u!198 &8498555531695047937 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 1809018906616553403, guid: c4b8552c94ebb2541b3ffdef26b4238b,
