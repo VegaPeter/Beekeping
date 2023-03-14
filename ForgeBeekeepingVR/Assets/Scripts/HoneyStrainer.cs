@@ -36,7 +36,7 @@ public class HoneyStrainer : MonoBehaviour
         }
     }
 
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Frame"))
         {
@@ -57,9 +57,9 @@ public class HoneyStrainer : MonoBehaviour
                     break;
 
                 default:
-                    frameONEInStrainer.SetActive(false);
-                    frameTWOInStrainer.SetActive(false);
-                    frameTHREEInStrainer.SetActive(false);
+                    //frameONEInStrainer.SetActive(false);
+                    //frameTWOInStrainer.SetActive(false);
+                    //frameTHREEInStrainer.SetActive(false);
                     break;
             }
 
