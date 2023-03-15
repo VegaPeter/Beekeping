@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: ff7a94a5c0f2ca8478d3acdf1d1cb8ab
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Frame_Brood
+    second: {fileID: 2100000, guid: 1147b51d4b8728b4ebd67d3419d85ade, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Frame_Brood_Comb_2
+    second: {fileID: 2100000, guid: bcc14dab4300a744d887f0cd273a8756, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Frame_Brood_End
+    second: {fileID: 2100000, guid: edac604283f88e84fbefdd065f39fd24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Frame_Super
+    second: {fileID: 2100000, guid: 75c004346190eb341b0ce08f77d438ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Frame_Super_Comb_2
+    second: {fileID: 2100000, guid: b548fa10c92b34b4dbb3e0091b9ecca2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Frame_Super_End
+    second: {fileID: 2100000, guid: c3f812a215ba0cc41a4681c35b411e58, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Hive_Frames_Tex_001_Tex_Frame_Brood_AlbedoTransparency
+    second: {fileID: 2800000, guid: 8091f020902d0a349847a15520b62a99, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Hive_Frames_Tex_001_Tex_Frame_Brood_Comb_2_AlbedoTransparency
+    second: {fileID: 2800000, guid: 4843c2317f5fc0d489d12db8946bffc2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Hive_Frames_Tex_001_Tex_Frame_Brood_Comb_2_Emission
+    second: {fileID: 2800000, guid: 57ac99d53377175459b0194fca02b453, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Hive_Frames_Tex_001_Tex_Frame_Brood_Comb_2_MetallicSmoothness
+    second: {fileID: 2800000, guid: a4f2d5a5da8877d47b0f7071d467fead, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Hive_Frames_Tex_001_Tex_Frame_Brood_Comb_2_Normal
+    second: {fileID: 2800000, guid: 714ca1d5dc594664bac8623e2ae2a9ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Hive_Frames_Tex_001_Tex_Frame_Brood_Emission
+    second: {fileID: 2800000, guid: f00719eda60c97f498fe806397c7ffff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Hive_Frames_Tex_001_Tex_Frame_Brood_End_AlbedoTransparency
+    second: {fileID: 2800000, guid: bd03a2b604da7694984084fd5fbc8850, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Hive_Frames_Tex_001_Tex_Frame_Brood_End_Emission
+    second: {fileID: 2800000, guid: 497b3608acef6c545ab35c19d9f87f8f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Hive_Frames_Tex_001_Tex_Frame_Brood_End_MetallicSmoothness
+    second: {fileID: 2800000, guid: 2cf62d7c61f9fb34387633dbada15657, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Hive_Frames_Tex_001_Tex_Frame_Brood_End_Normal
+    second: {fileID: 2800000, guid: 71a861ce5f6ead64ca893fc5953b603d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Hive_Frames_Tex_001_Tex_Frame_Brood_MetallicSmoothness
+    second: {fileID: 2800000, guid: c28f7ba049701e54c9fb0d537c7a921a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Hive_Frames_Tex_001_Tex_Frame_Brood_Normal
+    second: {fileID: 2800000, guid: aa4713bd545ebca4fa08784e042ba888, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Hive_Frames_Tex_001_Tex_Frame_Super_AlbedoTransparency
+    second: {fileID: 2800000, guid: a435cfd3029bc0f40bac3f35a1389e2f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Hive_Frames_Tex_001_Tex_Frame_Super_Comb_2_AlbedoTransparency
+    second: {fileID: 2800000, guid: 805a91860e3a63b45957949d4f10249a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Hive_Frames_Tex_001_Tex_Frame_Super_Comb_2_Emission
+    second: {fileID: 2800000, guid: 7fa9929ffee1ac3439d789c26698214b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Hive_Frames_Tex_001_Tex_Frame_Super_Comb_2_MetallicSmoothness
+    second: {fileID: 2800000, guid: c575a937b25bb31428861a6ff5f06d82, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Hive_Frames_Tex_001_Tex_Frame_Super_Comb_2_Normal
+    second: {fileID: 2800000, guid: 3c586c4ff7b284044b8505af752c169f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Hive_Frames_Tex_001_Tex_Frame_Super_Emission
+    second: {fileID: 2800000, guid: 9dc9fb795f4fd54438cd319187f7602a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Hive_Frames_Tex_001_Tex_Frame_Super_End_AlbedoTransparency
+    second: {fileID: 2800000, guid: 8b85f8c5628f43844bba6629d7249bf7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Hive_Frames_Tex_001_Tex_Frame_Super_End_Emission
+    second: {fileID: 2800000, guid: c0d395449b9d5b843ac22d3b8ec1b5e1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Hive_Frames_Tex_001_Tex_Frame_Super_End_MetallicSmoothness
+    second: {fileID: 2800000, guid: 0f7deaec158ccbd4abfc7389b683df85, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Hive_Frames_Tex_001_Tex_Frame_Super_End_Normal
+    second: {fileID: 2800000, guid: 0e8dc38c6905a3e43bec5459655f4c6e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Hive_Frames_Tex_001_Tex_Frame_Super_MetallicSmoothness
+    second: {fileID: 2800000, guid: d9d42864de3752b4d87444130fc93fac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Hive_Frames_Tex_001_Tex_Frame_Super_Normal
+    second: {fileID: 2800000, guid: 5437e8d6e39aae54a96472b1ff1d03d0, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

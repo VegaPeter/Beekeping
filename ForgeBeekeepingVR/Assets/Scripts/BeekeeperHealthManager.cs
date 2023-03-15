@@ -31,7 +31,7 @@ public class BeekeeperHealthManager : MonoBehaviour
         }
         else
         {
-            health -= 20;
+            health -= 209;
         }
 
         //Flash red borders aroudn edge of screen
