@@ -18,8 +18,13 @@ public class FramePlacerController : MonoBehaviour
         if(other.CompareTag("Frame"))
         {
             other.GetComponent<Rigidbody>().isKinematic = true;
+
             other.gameObject.transform.position = frameGuide.transform.position;
+            other.gameObject.transform.rotation = frameGuide.transform.rotation;
+
             frameGuide.GetComponent<Renderer>().enabled = false;
+            frameGuide.GetComponentInChildren<Renderer>().enabled = false;
+
             isLocked = true;
         }
     }

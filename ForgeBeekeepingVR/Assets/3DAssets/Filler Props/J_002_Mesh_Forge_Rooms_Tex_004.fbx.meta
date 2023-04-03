@@ -1,0 +1,1056 @@
+fileFormatVersion: 2
+guid: 3773b3e906a567b47bee2085dcbffc28
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Front_Door
+    second: {fileID: 2100000, guid: f87037573d318764994c41e3cc4a6838, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Metal
+    second: {fileID: 2100000, guid: a3df170fd1e6f2a44910deb951adafce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Metal_Key_Lock
+    second: {fileID: 2100000, guid: 5f3b7e0044833b946a8f1842ba790a12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Metal_Rough
+    second: {fileID: 2100000, guid: edb24d49f18d5b94e82fcbc031cc0e32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Table
+    second: {fileID: 2100000, guid: 11b3ee4e3c806604697a6cacdd2f143d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Table_Graphic
+    second: {fileID: 2100000, guid: c0ef0798709b32441aae48b22d76ad4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Table_Tv_Dark
+    second: {fileID: 2100000, guid: a4b57c83baa03244a8f7182101aeb9b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Table_Tv_Graphic
+    second: {fileID: 2100000, guid: dd97f74c2e66aa34393e862735e4cf9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Window_Frame
+    second: {fileID: 2100000, guid: 50f5e0282b91e3e469e38d9c7ee09475, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Glass_Champagne
+    second: {fileID: 2100000, guid: 33fcf5b715264b040a877fe2c8ebf616, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Bean_Bag
+    second: {fileID: 2100000, guid: 56606c75b01b34b439475ddd2af854e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Blue
+    second: {fileID: 2100000, guid: e1654a64554250844a08aa30fa6c9d1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Lights
+    second: {fileID: 2100000, guid: 8367583b344b6c349b73ea2938bcc92a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Lights_Bulbs
+    second: {fileID: 2100000, guid: 460e4e935637fe24482b27f1cd18b277, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Plug_Casing
+    second: {fileID: 2100000, guid: d044a0c116e7eeb4cb196f9beb135e13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Plug_Orig
+    second: {fileID: 2100000, guid: c189a653ca8bac1438e40b6f8a15b118, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Plug_Trip
+    second: {fileID: 2100000, guid: 127a574b99ead8344b5974d40a7d2212, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Pot
+    second: {fileID: 2100000, guid: e7ebf2272bc858649961d4bc6b21e23f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Pot_Soil
+    second: {fileID: 2100000, guid: 092ab84ea8a99024c89054177546cd78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Floor
+    second: {fileID: 2100000, guid: 83875c4b410928944ba6d3fcf8f76dc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Roof
+    second: {fileID: 2100000, guid: 86094136eabfb5543b7d0d46ba568cb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Walls
+    second: {fileID: 2100000, guid: c10f9d1e28676be4d82b7bfd19df76da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Walls_White
+    second: {fileID: 2100000, guid: 069be439148431746b6eb5cc8ce685ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Window
+    second: {fileID: 2100000, guid: 1ae4e4eeec8a94c49a733a03c10e3f68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Stairs_Rough_Metal
+    second: {fileID: 2100000, guid: f23f6fcd20495ac499edbd7e9386b478, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Stairs_Tile
+    second: {fileID: 2100000, guid: c4016e2b01f60524cbd3fbb74e13d979, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Glass
+    second: {fileID: 2100000, guid: 0c30c8a2a482f7346978c0a4758203ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Metal_Lock
+    second: {fileID: 2100000, guid: 86fdd2277cbb7ea4fa8436ad0b2138a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Plant
+    second: {fileID: 2100000, guid: 57667434dfa3a7644934b4b5af1e985e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Table_Metal
+    second: {fileID: 2100000, guid: 04b48487a2e8b174181a360732d57d33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Forge_Stairs
+    second: {fileID: 2100000, guid: e06d7ce7775101e4f8927e9875ce191c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_LG_TV
+    second: {fileID: 2100000, guid: 7f212b2f5930f5847ac384c32f565dbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_LG_TV_Bevel
+    second: {fileID: 2100000, guid: b0bf28e170f5cb243ade0b299bd9ee67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_LG_TV_Panel
+    second: {fileID: 2100000, guid: c390ca19e45a0fe46a3bdec33ed89ffd, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2. J_002_Mesh_Forge_Rooms_Pot_Soil_001_J_002_Tex_Forge_Pot_Soil_BaseMap
+    second: {fileID: 2800000, guid: 65f0d7bd38921e84cbab0b17acd3c2b3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2. J_002_Mesh_Forge_Rooms_Pot_Soil_001_J_002_Tex_Forge_Pot_Soil_Normal
+    second: {fileID: 2800000, guid: d2f5d6aed3a388046aa79743e393c53b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Front_Door_Alpha
+    second: {fileID: 2800000, guid: f79062383a25cb448a50bff606f73918, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Front_Door_BaseColor
+    second: {fileID: 2800000, guid: 59be4626ed26e1a438cc0a09d8054fcc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Front_Door_Emission
+    second: {fileID: 2800000, guid: edcc0348f446ff24a9c538685fd4f956, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Front_Door_Metallic
+    second: {fileID: 2800000, guid: 971ad02c9d02b9c4eb3c45014af7b17c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Front_Door_Normal
+    second: {fileID: 2800000, guid: 4de7f80425e2e8d4da25b3cac3d4009c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Front_Door_Roughness
+    second: {fileID: 2800000, guid: 6539bece7ea663548bb00e4ca9070156, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Metal_Alpha
+    second: {fileID: 2800000, guid: 99992f21140c5e846a36e79aca73864a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Metal_BaseColor
+    second: {fileID: 2800000, guid: 34bf5759036e75a4ca27875dcc4b6c31, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Metal_Emission
+    second: {fileID: 2800000, guid: f6bbfdcf754bb214bac38dea1b315771, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Metal_Key_Lock_Alpha
+    second: {fileID: 2800000, guid: 88401be400858af43a0d889beb41993e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Metal_Key_Lock_BaseColor
+    second: {fileID: 2800000, guid: 6b823a8c9fdab9f43ae9e7a18b34275c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Metal_Key_Lock_Emission
+    second: {fileID: 2800000, guid: a5252ec10ffebec4ba9da0ec7a1eeca4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Metal_Key_Lock_Normal
+    second: {fileID: 2800000, guid: cc141251881bed245892a63b85c637f9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Metal_Key_Lock_Roughness
+    second: {fileID: 2800000, guid: 73022d69933ec804b950f4cd410b96d7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Metal_Normal
+    second: {fileID: 2800000, guid: 341449370edb19740a92aa8b2a911959, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Metal_Rough_Alpha
+    second: {fileID: 2800000, guid: 310e0b1158a053246a190a8876bf6e36, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Metal_Rough_BaseColor
+    second: {fileID: 2800000, guid: 162cdc7a20c64484f8a6c9c49ff1df55, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Metal_Rough_Emission
+    second: {fileID: 2800000, guid: cda7da97e478dca4da071bb16453625f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Metal_Rough_Normal
+    second: {fileID: 2800000, guid: 539c5045d63c6c74eabe308714007ec3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Metal_Roughness
+    second: {fileID: 2800000, guid: 8a4e7c1932ff89d46b082f291424158a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Table_Alpha
+    second: {fileID: 2800000, guid: e6118cf25d639e641a0d6566a343e60b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Table_BaseColor
+    second: {fileID: 2800000, guid: c2577b008ddbb3c4fb4ff7bc0877210a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Table_Emission
+    second: {fileID: 2800000, guid: fca8a518b14564c44a5a38f1150be5e8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Table_Metallic
+    second: {fileID: 2800000, guid: cc555c77d521f4949b5fa9a95553c4b5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Table_Normal
+    second: {fileID: 2800000, guid: 026f44958b15edc48a33bac47bd01843, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Table_Roughness
+    second: {fileID: 2800000, guid: e4c986e6ed13e6541a15683c7758a734, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Window_Frame_Alpha
+    second: {fileID: 2800000, guid: ab0e58b88139831488fd857e9adadc54, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Window_Frame_BaseColor
+    second: {fileID: 2800000, guid: 4d0facf6cee82bd47abfbb45a700c0d1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Window_Frame_Emission
+    second: {fileID: 2800000, guid: e3eaee6bfa2c2c5469ccded9aeab4bbf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Window_Frame_Metallic
+    second: {fileID: 2800000, guid: ca0778b77ee82d049af057d708af37cb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Window_Frame_Normal
+    second: {fileID: 2800000, guid: 154e8c1ed055f154d9563004da390e8e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Forge_Window_Frame_Roughness
+    second: {fileID: 2800000, guid: 7e3bf4ef57331644e8a78f5b3fd06db2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Mesh_Forge_Rooms_005_J_002_Forge_Table_Tv_Dark_AlbedoTransparency
+    second: {fileID: 2800000, guid: 4b342558bc877464eaf919668a3a08aa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Mesh_Forge_Rooms_005_J_002_Forge_Table_Tv_Dark_Emission
+    second: {fileID: 2800000, guid: a0e5896d6cb698b4eba215124ef1197c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Mesh_Forge_Rooms_005_J_002_Forge_Table_Tv_Dark_MetallicSmoothness
+    second: {fileID: 2800000, guid: 311d954bfe98f8d478962cefde6192c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Mesh_Forge_Rooms_005_J_002_Forge_Table_Tv_Dark_Normal
+    second: {fileID: 2800000, guid: 61244b425d1051f4db406053ba2cbd16, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Mesh_Forge_Rooms_005_J_002_Tex_Forge_Plug_Trip_AlbedoTransparency
+    second: {fileID: 2800000, guid: 4dc9fe101a7452c4388533240d0eb0ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Mesh_Forge_Rooms_005_J_002_Tex_Forge_Plug_Trip_Emission
+    second: {fileID: 2800000, guid: 69a7e94231271eb49839f39e4017d89d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Mesh_Forge_Rooms_005_J_002_Tex_Forge_Plug_Trip_MetallicSmoothness
+    second: {fileID: 2800000, guid: 24be2618c29a4434a8940922d5e3dd58, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Mesh_Forge_Rooms_005_J_002_Tex_Forge_Plug_Trip_Normal
+    second: {fileID: 2800000, guid: b6b4b72b4bebe5c408a3eae4f1e6ed3e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Mesh_Forge_Rooms_005_J_002_Tex_Forge_Pot_AlbedoTransparency
+    second: {fileID: 2800000, guid: aabbf188134881a46b529be0d8658797, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Mesh_Forge_Rooms_005_J_002_Tex_Forge_Pot_Emission
+    second: {fileID: 2800000, guid: ef5bc6238620e56419233ffc920bf4d6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Mesh_Forge_Rooms_005_J_002_Tex_Forge_Pot_MetallicSmoothness
+    second: {fileID: 2800000, guid: 498b5c67c35c76942a85f38ca1044bbb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Mesh_Forge_Rooms_005_J_002_Tex_Forge_Pot_Normal
+    second: {fileID: 2800000, guid: 8dd59982e3351e543829cd263dbf1a63, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Mesh_Forge_Rooms_005_J_002_Tex_Plant_AlbedoTransparency
+    second: {fileID: 2800000, guid: 1360b7604bb390347a8a00bcfc559231, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Mesh_Forge_Rooms_005_J_002_Tex_Plant_Emission
+    second: {fileID: 2800000, guid: c5653bbfc5783934981c6665792cbac8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Mesh_Forge_Rooms_005_J_002_Tex_Plant_MetallicSmoothness
+    second: {fileID: 2800000, guid: 7bf96068c90008743b5bfc697bcfb9d7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Mesh_Forge_Rooms_005_J_002_Tex_Plant_Normal
+    second: {fileID: 2800000, guid: 13e69d469f0d2c042a4f7cb454fab28e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Mesh_Forge_Rooms_005_J_002_Tex_Table_Metal_AlbedoTransparency
+    second: {fileID: 2800000, guid: 21a89d5015b72ca41852e5f7f6526fc4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Mesh_Forge_Rooms_005_J_002_Tex_Table_Metal_Emission
+    second: {fileID: 2800000, guid: 4ebbbf807d33b7a47babe2b6ff92be82, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Mesh_Forge_Rooms_005_J_002_Tex_Table_Metal_Normal
+    second: {fileID: 2800000, guid: af7a72559b650d148b80787b64c28bd1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Bean_Bag_Alpha
+    second: {fileID: 2800000, guid: 8fc722bf007997c4099453810ac6632e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Bean_Bag_BaseColor
+    second: {fileID: 2800000, guid: a9228f7881eb6d84ebdea11e57c8ce69, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Bean_Bag_Emission
+    second: {fileID: 2800000, guid: 7679db3dab9c5da42854b18b878796af, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Bean_Bag_Metallic
+    second: {fileID: 2800000, guid: e69c112a17e22b642b896fca5642365e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Bean_Bag_Normal
+    second: {fileID: 2800000, guid: 965383a61fe88c346a8faa256a318a7f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Bean_Bag_Roughness
+    second: {fileID: 2800000, guid: 6a289074016240642a8d508890a11599, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Blue_Alpha
+    second: {fileID: 2800000, guid: a37de5d5691e6b84bbec19c3d8b7e462, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Blue_BaseColor
+    second: {fileID: 2800000, guid: 2a644c78acac44b4d9727f5ddfc69e62, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Blue_Emission
+    second: {fileID: 2800000, guid: e5394e8f8eab5574898f598d7498db12, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Blue_Metallic
+    second: {fileID: 2800000, guid: e645503bbe69ca14e92131aac142dcb8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Blue_Normal
+    second: {fileID: 2800000, guid: c11f3065a59e0c94cb4e68a011d4ad67, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Blue_Roughness
+    second: {fileID: 2800000, guid: c74480d14f9c58d49a1a51de7de85809, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Lights_Alpha
+    second: {fileID: 2800000, guid: f4968dbf2afcb184ba7a959e6ad5de20, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Lights_BaseColor
+    second: {fileID: 2800000, guid: 6efa6ca0113d42b4b83be2dce1a04d74, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Lights_Bulbs_Alpha
+    second: {fileID: 2800000, guid: 5bc69ae566ae84c45ad4dc873d23e15f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Lights_Bulbs_BaseColor
+    second: {fileID: 2800000, guid: ac52829c928331b48b563d95cb47cb72, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Lights_Bulbs_Emission
+    second: {fileID: 2800000, guid: fa3f7d6efbcbb0543ad2f253f384c7a1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Lights_Bulbs_Metallic
+    second: {fileID: 2800000, guid: 2e967a609174b994590975e85016ca66, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Lights_Bulbs_Normal
+    second: {fileID: 2800000, guid: f8a4972aec7c7ff45b93817c60fa341e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Lights_Bulbs_Roughness
+    second: {fileID: 2800000, guid: 135914c7ce11ba24f8b31ca238b8a66a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Lights_Emission
+    second: {fileID: 2800000, guid: 8b4eb4d647e58204fbf14fcd66b8d2b4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Lights_Metallic
+    second: {fileID: 2800000, guid: 02f4e39e99e8d9d4c8ef5a50f1928edc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Lights_Normal
+    second: {fileID: 2800000, guid: 688e0d0d715b00849a8306b0b291b6bc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Lights_Roughness
+    second: {fileID: 2800000, guid: 2a06c3acec027b3468283da115bb891b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Plug_Casing_Alpha
+    second: {fileID: 2800000, guid: 5da295d29516e2a4cbf6242fd79e09b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Plug_Casing_BaseColor
+    second: {fileID: 2800000, guid: f46ce4d3e1c1d0f4d84b45e2c60a8fe2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Plug_Casing_Emission
+    second: {fileID: 2800000, guid: 03bca54be4864de448a0a5f8ae3f0791, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Plug_Casing_Metallic
+    second: {fileID: 2800000, guid: 611aa00805cbaf24d81e101c6a230753, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Plug_Casing_Normal
+    second: {fileID: 2800000, guid: 53afb8e24634c8f4bac060481f17485f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Floor_Alpha
+    second: {fileID: 2800000, guid: 81d344b9fab8d3640b7ff3a262061a9b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Floor_Emission
+    second: {fileID: 2800000, guid: b27fed109d0d1c4459c22c674792e69c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Floor_Metallic
+    second: {fileID: 2800000, guid: 5bd5144fbd1c3d5478448b18934533a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Floor_Normal
+    second: {fileID: 2800000, guid: c4de46889784179428cb706e2c5d76d5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Floor_Roughness
+    second: {fileID: 2800000, guid: 769dd1172bdd58347b37187d5a161559, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Roof_Alpha
+    second: {fileID: 2800000, guid: 242d712fc7429da44aa652be4ded2e5c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Roof_BaseColor
+    second: {fileID: 2800000, guid: 317c7041ae78aa447a933794433440de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Roof_Emission
+    second: {fileID: 2800000, guid: edf28e27b0ffa734eaabd0093bbef032, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Roof_Metallic
+    second: {fileID: 2800000, guid: eae8f8af79b718a44892172c228d676c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Roof_Normal
+    second: {fileID: 2800000, guid: c27d1c86d1a13bb468c904f13fd38128, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Roof_Roughness
+    second: {fileID: 2800000, guid: 7a1422017b020904cbb0e676ec65730d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Walls_Alpha
+    second: {fileID: 2800000, guid: 55f73eb34103bf04f8ba0f1ff52ad155, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Walls_BaseColor
+    second: {fileID: 2800000, guid: 9c15b5927ef08f041ac15a3636efe021, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Walls_Emission
+    second: {fileID: 2800000, guid: 3593ea88427545b47b089e6018156bd4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Walls_Metallic
+    second: {fileID: 2800000, guid: 548966d4ef52a36468e3b9f97a4eec86, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Walls_Normal
+    second: {fileID: 2800000, guid: 59870ce1a1818084386b2a7b32082ba4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Walls_Roughness
+    second: {fileID: 2800000, guid: 06e0facda7a3ab341af22c1ffc0250ce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Walls_White_Alpha
+    second: {fileID: 2800000, guid: 247bda27b04e1a740827bfd39a2e1f1d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Walls_White_BaseColor
+    second: {fileID: 2800000, guid: 3cbd999389c9d3e489bea1d8ff082484, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Walls_White_Emission
+    second: {fileID: 2800000, guid: d4b7802c40a53f64b8876ccd9c488c51, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Walls_White_Metallic
+    second: {fileID: 2800000, guid: e66891a9c0ccac84a8752523dd27fe86, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Walls_White_Normal
+    second: {fileID: 2800000, guid: b8a344ed8b47e8d459c023b98a7f33e0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Walls_White_Roughness
+    second: {fileID: 2800000, guid: bbbb97fb766c0974390f059772f96d6f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Window_Alpha
+    second: {fileID: 2800000, guid: f5105855f0dc3de46b8447b32c083e36, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Window_BaseColor
+    second: {fileID: 2800000, guid: 13cdd17b0c7f83e44bdac266333218ab, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Window_Emission
+    second: {fileID: 2800000, guid: 33bb58a134d24bf4f8e92c648e9eb443, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Window_Metallic
+    second: {fileID: 2800000, guid: 9ae35b2fb7251a547a2190466884b206, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Window_Normal
+    second: {fileID: 2800000, guid: 07895dcb8a0dd854193debe4478febda, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Rooms_Window_Roughness
+    second: {fileID: 2800000, guid: 4939bd06437ac7b42a4654200a8b6202, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Stairs_Rough_Metal_Alpha
+    second: {fileID: 2800000, guid: 5832e2a029930444e9fc03ca1556594a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Stairs_Rough_Metal_BaseColor
+    second: {fileID: 2800000, guid: 6c4e22343069a5e4da8e94200656ac7f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Stairs_Rough_Metal_Emission
+    second: {fileID: 2800000, guid: 7ed83321b99ca9447b71aa91a6d94d31, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Stairs_Rough_Metal_Roughness
+    second: {fileID: 2800000, guid: e3edc513babe85945aba5d1cdae84222, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Stairs_Tile_Alpha
+    second: {fileID: 2800000, guid: d34b324d36e607a4684fa0ae4646dac7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Stairs_Tile_BaseColor
+    second: {fileID: 2800000, guid: 091dd53e88a5ba74f8993cff1a9a3bb2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Stairs_Tile_Emission
+    second: {fileID: 2800000, guid: 5184b4f8dd6ca9840956e0f5823f269a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Stairs_Tile_Metallic
+    second: {fileID: 2800000, guid: 6195236fc8b420d4f83f8c1b979f883b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Stairs_Tile_Normal
+    second: {fileID: 2800000, guid: 56394891d556f4e4a88b6ebfa5481dbc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Forge_Stairs_Tile_Roughness
+    second: {fileID: 2800000, guid: c383f0d4299cac44da6700e25f6a8b3b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Glass_Alpha
+    second: {fileID: 2800000, guid: 3e8b31a4bdfeaec45af105f2b0e5064d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Glass_BaseColor
+    second: {fileID: 2800000, guid: 52c672fedb7ed7949ad9cd199ecfb835, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Glass_Emission
+    second: {fileID: 2800000, guid: e4cedd7e70112164d8cb9e7bec58cdb1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Glass_Metallic
+    second: {fileID: 2800000, guid: 79f803bd6fa405542b82988d2bb17a56, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Glass_Normal
+    second: {fileID: 2800000, guid: d2d0453859801eb45aa5ccbd55a13e44, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Glass_Roughness
+    second: {fileID: 2800000, guid: 136a3cf2a4effdc4f9a73aa45b7981c1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Metal_Lock_Alpha
+    second: {fileID: 2800000, guid: 30cf60e644778c54581e948e87d7b1a1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Metal_Lock_BaseColor
+    second: {fileID: 2800000, guid: e7f2f38b3af56784f93df9dc4aef9696, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Metal_Lock_Emission
+    second: {fileID: 2800000, guid: 90614d50252e7ad4c9db9d35f2533938, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Metal_Lock_Normal
+    second: {fileID: 2800000, guid: fe47a83abed80854e848f669a329e15c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_002_Tex_Metal_Lock_Roughness
+    second: {fileID: 2800000, guid: b729c456cc1d42843b1f61db6cdc95dd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_Forge_Stairs_Alpha
+    second: {fileID: 2800000, guid: 012be67c9b5f11f45a17e2eef9aea101, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_Forge_Stairs_BaseColor
+    second: {fileID: 2800000, guid: c754fa52a52eabe459b07c264baac73b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_Forge_Stairs_Emission
+    second: {fileID: 2800000, guid: 986c9e5c98173ae44b76bc746b51bd73, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_Forge_Stairs_Metallic
+    second: {fileID: 2800000, guid: a71dea79369db9a499932487f331f99b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_Forge_Stairs_Normal
+    second: {fileID: 2800000, guid: 2af9f7770d2bc2847b32a04c9baa4282, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_Forge_Stairs_Roughness
+    second: {fileID: 2800000, guid: 1f74ec8708211b24f8c623c69d2be943, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_LG_TV_Alpha
+    second: {fileID: 2800000, guid: fe700b83356443f439fe506fd2a50770, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_LG_TV_BaseColor
+    second: {fileID: 2800000, guid: 5d69982fe2cee244bafd7e2168e5dd15, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_LG_TV_Bevel_Alpha
+    second: {fileID: 2800000, guid: e2363201fa2cd22459818a29b58b2186, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_LG_TV_Bevel_BaseColor
+    second: {fileID: 2800000, guid: 91365d3a80b3de54681f06ea47c701c6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_LG_TV_Bevel_Emission
+    second: {fileID: 2800000, guid: 2bf52c6c4a1249440a52ce650b61c1cc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_LG_TV_Bevel_Metallic
+    second: {fileID: 2800000, guid: a31174013ce1df44aa53e4240395c5e6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_LG_TV_Bevel_Normal
+    second: {fileID: 2800000, guid: ca4b5d9f4b1738c498f07170747501bc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_LG_TV_Bevel_Roughness
+    second: {fileID: 2800000, guid: 3fefd5b14b7f66544a6a7be2c150bb59, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_LG_TV_Emission
+    second: {fileID: 2800000, guid: a3996e66d985e22449f21c4d9218d738, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_LG_TV_Metallic
+    second: {fileID: 2800000, guid: c744a60a2682e5e4fb39c5a94dbf6b45, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_LG_TV_Normal
+    second: {fileID: 2800000, guid: 2837aaa5df24aa24484bc141040323db, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_LG_TV_Panel_Alpha
+    second: {fileID: 2800000, guid: d2581faa64a52694c87b32831e93bfe2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_LG_TV_Panel_BaseColor
+    second: {fileID: 2800000, guid: ed35f70f4e62a2842b1595fd3e08fc39, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_LG_TV_Panel_Emission
+    second: {fileID: 2800000, guid: 2ec7bd165f2983f4e9d79d1ef6e7991a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_LG_TV_Panel_Metallic
+    second: {fileID: 2800000, guid: 1c13feadc8e47ff40a51e81268fc506f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_LG_TV_Panel_Normal
+    second: {fileID: 2800000, guid: 8b129309349155f4f89696abb4cc27d3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_LG_TV_Panel_Roughness
+    second: {fileID: 2800000, guid: 6c853ca2c0fd5a54e88012c7825b9ddd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tex_LG_TV_Roughness
+    second: {fileID: 2800000, guid: 9933b9d48aa2782419abe54ccf4128e2, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
