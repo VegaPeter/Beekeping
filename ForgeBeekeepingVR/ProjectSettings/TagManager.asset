@@ -13,6 +13,7 @@ TagManager:
   - CappedHoney
   - Frame
   - Render
+  - NoFrameNoStrain
   layers:
   - Default
   - TransparentFX

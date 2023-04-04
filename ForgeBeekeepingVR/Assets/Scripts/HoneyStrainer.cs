@@ -38,7 +38,7 @@ public class HoneyStrainer : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Frame"))
+        if(other.CompareTag("NoFrameNoStrain"))
         {
             totalFramesInStrainer++;
 
