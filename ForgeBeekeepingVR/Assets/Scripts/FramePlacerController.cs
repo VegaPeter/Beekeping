@@ -19,8 +19,12 @@ public class FramePlacerController : MonoBehaviour
         {
             other.GetComponent<Rigidbody>().isKinematic = true;
 
-            other.gameObject.transform.position = frameGuide.transform.position;
-            other.gameObject.transform.rotation = frameGuide.transform.rotation;
+            other.gameObject.transform.localPosition = frameGuide.transform.position;
+            other.gameObject.transform.localRotation = frameGuide.transform.rotation;
+
+            other.gameObject.GetComponentInChildren<Transform>().localPosition = new Vector3(0f, 0f, 0f);
+            other.gameObject.GetComponentInChildren<Transform>().localRotation = Quaternion.Euler(0f, 0f, 0f);
+
 
             frameGuide.GetComponent<Renderer>().enabled = false;
             frameGuide.GetComponentInChildren<Renderer>().enabled = false;
