@@ -57,14 +57,14 @@ public class HoneyStrainer : MonoBehaviour
                     break;
 
                 default:
-                    //frameONEInStrainer.SetActive(false);
-                    //frameTWOInStrainer.SetActive(false);
-                    //frameTHREEInStrainer.SetActive(false);
                     break;
             }
 
             filledWithUnstrainedHoney = true;
-            other.gameObject.GetComponentInChildren<MeshRenderer>().enabled = false;
+            Renderer meshRendererFrame = other.gameObject.GetComponentInChildren<MeshRenderer>();
+            meshRendererFrame.gameObject.GetComponentInChildren<GameObject>().SetActive(false);
+            meshRendererFrame.enabled = false;
+            
         }
     }
 
@@ -88,7 +88,7 @@ public class HoneyStrainer : MonoBehaviour
 
     public void SpawnStrainedHoney()
     {
-        Instantiate(honeyForSale, new Vector3(106.872f, 30.763f, 87.819f), Quaternion.identity); //Felt lazy and just manually got its world coordinates. 
+        Instantiate(honeyForSale, new Vector3(112.2966f, 30.828f, 87.784f), Quaternion.identity); //Felt lazy and just manually got its world coordinates. //Fuck you past me. 
     }
 
     private void RotateTeeth()
