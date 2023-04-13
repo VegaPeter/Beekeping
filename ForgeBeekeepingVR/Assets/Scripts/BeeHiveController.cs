@@ -91,6 +91,10 @@ public class BeeHiveController : MonoBehaviour
 
         innerCover.SetActive(false);
 
+        hiveFrame1.GetComponent<Rigidbody>().isKinematic = true;
+        hiveFrame2.GetComponent<Rigidbody>().isKinematic = true;
+        hiveFrame3.GetComponent<Rigidbody>().isKinematic = true;
+
         yield return new WaitForSeconds(1);
 
         BeeAgressionManager(2);
