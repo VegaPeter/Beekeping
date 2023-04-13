@@ -324,6 +324,7 @@
     <None Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Shaders\PassthroughShadow.shader" />
     <None Include="Assets\NatureManufacture Assets\Object Shaders\Standard_Metallic_Road_Transparent.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Shaders\TriPlanarWorld.shader" />
+    <None Include="Assets\SkySeries Freebie\Hdri setup.txt" />
     <None Include="Assets\NatureManufacture Assets\Object Shaders\NM_Layered_Triplanar_Top_Cover.shader" />
     <None Include="Assets\NatureManufacture Assets\Foliage Shaders\NM_Foliage.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
