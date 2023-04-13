@@ -34,7 +34,7 @@ public class BeekeeperHealthManager : MonoBehaviour
             health -= 209;
         }
 
-        //Flash red borders aroudn edge of screen
+        //Flash red borders around edge of screen
 
         Debug.Log("Current Health: " + health);
     }
@@ -50,6 +50,4 @@ public class BeekeeperHealthManager : MonoBehaviour
         yield return new WaitForSeconds(10f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-
-
 }
