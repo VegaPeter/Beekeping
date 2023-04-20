@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: 6c3d993a056d0e749857ff02a4ab85a9
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Cabin_Floor
+    second: {fileID: 2100000, guid: f5ca1b5dcd794354494f1120985f5f48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Cabin_Roof.001
+    second: {fileID: 2100000, guid: 964a2807a748bcd43b1ea8b524210058, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Cabin_Wall_Log
+    second: {fileID: 2100000, guid: 17c2d692c5d774246a5d5176332127a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Cabin_Wall_Log.001
+    second: {fileID: 2100000, guid: dfb0fd52bad7dbf4fb6c13de6e7786ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Cabin_Walls
+    second: {fileID: 2100000, guid: 702d29681585ec042a21995b6d8e9541, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Door.001
+    second: {fileID: 2100000, guid: b662a46762096ae408387344c8497ed4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Door_Frame.001
+    second: {fileID: 2100000, guid: 9d55a886dfcbdd04fa6bd66f1be15d04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Door_Key_Hole.001
+    second: {fileID: 2100000, guid: 5351bef48a2f5214db1d1fd66364d095, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Door_Knob.001
+    second: {fileID: 2100000, guid: dcab9de02a32ed64e9ac2cbaddad059f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Door_Lock.001
+    second: {fileID: 2100000, guid: 696fd81fc9a02d44e9582636dad049e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Log_Cut.001
+    second: {fileID: 2100000, guid: ae5d9efbaaf91a04e87d5aed46605aec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Roof_Holder.001
+    second: {fileID: 2100000, guid: 75361aef42b0406458791108bf83010d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Roof_Supports
+    second: {fileID: 2100000, guid: 6f6d408723d11c043b2f6796186cfc3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Thatch_Roof.001
+    second: {fileID: 2100000, guid: a11032cf424f9df49b656d48ed1145eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Window_Pane.001
+    second: {fileID: 2100000, guid: 6490165320592494093b647a1abbdb12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Window_Struts.001
+    second: {fileID: 2100000, guid: 52f9d5b6dc1430247865692166d311cb, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Cabin_Roof_BaseMap
+    second: {fileID: 2800000, guid: cd2250fe6ffb4904d85daf083b5d3f19, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Cabin_Roof_Emissive
+    second: {fileID: 2800000, guid: c0270c6442360ec45afb8bb83a60f299, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Cabin_Roof_Normal
+    second: {fileID: 2800000, guid: 4e070e71b01f0424c99a63a5faee067d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Cabin_Walls_BaseMap
+    second: {fileID: 2800000, guid: 9be65bc44390cfd4cb65bebb277dff86, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Cabin_Walls_Emissive
+    second: {fileID: 2800000, guid: d587121e97dbf6e4ea0bc340305bf8cb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Cabin_Walls_Normal
+    second: {fileID: 2800000, guid: 47b6e3c6f2d579c42a30f1640af86c9c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Door_BaseMap
+    second: {fileID: 2800000, guid: 3f615915d3ccf0a45a834525c753d994, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Door_Emissive
+    second: {fileID: 2800000, guid: 2f1d08dd2ae29284f9c358de66fe9db0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Door_Frame_BaseMap
+    second: {fileID: 2800000, guid: f5337ae8a20e4f94bb14134b4e98ba27, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Door_Frame_Emissive
+    second: {fileID: 2800000, guid: e847b3e5ac78ced41a5be1126ef4f95a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Door_Frame_Normal
+    second: {fileID: 2800000, guid: 803668c7d3de62241ab859dc1beca6d6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Door_Knob_BaseMap
+    second: {fileID: 2800000, guid: 4235c0508eb6f5144bbc72877dbb39ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Door_Knob_Emissive
+    second: {fileID: 2800000, guid: 0ea5716062e719b4e830c91b3eb801ad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Door_Knob_Normal
+    second: {fileID: 2800000, guid: 32154b926d2d49c48a1d8018a88241de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Door_Lock_BaseMap
+    second: {fileID: 2800000, guid: da2a35d4b43e60441a5ba8f72c212bc8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Door_Lock_Emissive
+    second: {fileID: 2800000, guid: 619b2bd99a2296b409eef4172a4c9f5d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Door_Lock_Normal
+    second: {fileID: 2800000, guid: 2ddf3bb945de71b43a8dc9d999c26ce0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Door_Normal
+    second: {fileID: 2800000, guid: 4d92ce9bf81d2e04984153cd22a5d3d4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Roof_Holder_BaseMap
+    second: {fileID: 2800000, guid: 01a8a6e6a1bc9964e94c314d2df7d57c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Roof_Holder_Emissive
+    second: {fileID: 2800000, guid: 1b6850c5cd54e2f48bfffd2512ed2f8d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Roof_Supports_BaseMap
+    second: {fileID: 2800000, guid: 86f5fb61891f2b448b8e7313eac53021, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Roof_Supports_Emissive
+    second: {fileID: 2800000, guid: c05ebd9650dae374293e2eb21b951102, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Roof_Supports_Normal
+    second: {fileID: 2800000, guid: eecbb6ced9b20634cb397613acc05181, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Thatch_Roof_BaseMap
+    second: {fileID: 2800000, guid: 00d1eba703730ca4caacdd7eb25355fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Thatch_Roof_Emissive
+    second: {fileID: 2800000, guid: 8a261398e8d135d419d03344b3ecfffd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Thatch_Roof_Normal
+    second: {fileID: 2800000, guid: c0e289f0fc70a2b47889c9a492a42c00, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Window_Pane_BaseMap
+    second: {fileID: 2800000, guid: ac4ce683b4c406344abc1133ac9ad272, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Window_Pane_Emissive
+    second: {fileID: 2800000, guid: 0bf20a3e5fd50af49848792cdf12cb9e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Window_Pane_Normal
+    second: {fileID: 2800000, guid: 950b00cd7c3927e46be4775ea9801359, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Window_Struts_BaseMap
+    second: {fileID: 2800000, guid: 2a01686efcce3e94c8b72ba776b924e0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Window_Struts_Emissive
+    second: {fileID: 2800000, guid: 3384c73994972e74c9fbfe2b70826718, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: J_001_Mesh_Cabin_Tex_002_Tex_Window_Struts_Normal
+    second: {fileID: 2800000, guid: 1cba3f06a007a1d4da550715421607a6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Log_Cabin_005_Tex_Cabin_Floor_AlbedoTransparency
+    second: {fileID: 2800000, guid: 022b8b7c72d65754f8862ed89531daf6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Log_Cabin_005_Tex_Cabin_Floor_Emission
+    second: {fileID: 2800000, guid: 4ac1e68de7ea84243877368ecbb9f272, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Log_Cabin_005_Tex_Cabin_Floor_MetallicSmoothness
+    second: {fileID: 2800000, guid: b350a09502d976f489c5341348b0997a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Log_Cabin_005_Tex_Cabin_Floor_Normal
+    second: {fileID: 2800000, guid: ba4312f39c434b840a594f47a8be4368, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Log_Cabin_Log_001_Tex_Cabin_Wall_Log_Emissive
+    second: {fileID: 2800000, guid: e61af645e294306429e6e1e21d4d8bbc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Log_Cabin_Log_001_Tex_Cabin_Wall_Log_Normal
+    second: {fileID: 2800000, guid: 073dad56d1be8e847bb202aaef1180eb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Log_Cabin_Log_001_Tex_Log_Cut_BaseMap
+    second: {fileID: 2800000, guid: 171993f4445941e44ac7674d1812cf2d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Log_Cabin_Log_001_Tex_Log_Cut_Emissive
+    second: {fileID: 2800000, guid: 3c2fd5489b9e2bc42bf895a0ca697aeb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Log_Cabin_Log_001_Tex_Log_Cut_Normal
+    second: {fileID: 2800000, guid: 1ed72b942b371c3448cbd95b1aae5299, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
