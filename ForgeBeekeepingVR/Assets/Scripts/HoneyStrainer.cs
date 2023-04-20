@@ -63,8 +63,7 @@ public class HoneyStrainer : MonoBehaviour
             filledWithUnstrainedHoney = true;
             Renderer meshRendererFrame = other.gameObject.GetComponentInChildren<MeshRenderer>();
             meshRendererFrame.gameObject.GetComponentInChildren<GameObject>().SetActive(false);
-            meshRendererFrame.enabled = false;
-            
+            meshRendererFrame.enabled = false;   
         }
     }
 
@@ -94,10 +93,5 @@ public class HoneyStrainer : MonoBehaviour
     private void RotateTeeth()
     {
         strainingTeeth.transform.Rotate(0, 0f, 1f, Space.Self);
-    }
-
-    public void Debugger()
-    {
-       //Empty, was used when testing individual methods
     }
 }
