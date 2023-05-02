@@ -9,6 +9,8 @@ public class TutorialActiveController : MonoBehaviour
 
     public void SetNextTutorialActive()
     {
+        if (index > tutorialList.Count) return;
+
         index++;
         tutorialList[index].gameObject.SetActive(true);
     }
