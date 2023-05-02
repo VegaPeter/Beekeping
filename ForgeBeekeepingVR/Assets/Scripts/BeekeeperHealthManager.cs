@@ -17,10 +17,10 @@ public class BeekeeperHealthManager : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if(health <= 0)
-        {
-            Die();
-        }
+        //if(health <= 0)
+        //{
+        //    Die();
+        //}
     }
 
     public void TakeDamage()
