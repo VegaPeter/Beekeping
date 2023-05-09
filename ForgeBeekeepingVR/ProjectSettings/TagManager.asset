@@ -14,6 +14,7 @@ TagManager:
   - Frame
   - Render
   - NoFrameNoStrain
+  - WritingInstrument
   layers:
   - Default
   - TransparentFX
