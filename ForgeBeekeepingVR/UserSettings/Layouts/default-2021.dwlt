@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1349.3334
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 7536
+  controlID: 15
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 7717
+  controlID: 16
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 7718
+  controlID: 17
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -215,14 +215,14 @@ MonoBehaviour:
     y: 0
     width: 1534.6666
     height: 858.6667
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 14}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -269,8 +269,8 @@ MonoBehaviour:
     y: 0
     width: 604
     height: 1299.3334
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 17}
@@ -279,7 +279,7 @@ MonoBehaviour:
   - {fileID: 20}
   - {fileID: 21}
   m_Selected: 1
-  m_LastSelected: 0
+  m_LastSelected: 3
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -312,12 +312,12 @@ MonoBehaviour:
   m_SerializedViewNames:
   - UnityEditor.DeviceSimulation.SimulatorWindow
   m_SerializedViewValues:
-  - C:\Work\Beekeeping Backup\Beekeping\ForgeBeekeepingVR\Library\PlayModeViewStates\a92afd12d9569164c838ebe877f0a257
+  - C:\Work\Beekeeping Backup\Beekeping\ForgeBeekeepingVR\Library\PlayModeViewStates\090ceab7e7313ca45a3833af0ad92434
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 3840, y: 2160}
+  m_TargetSize: {x: 2299, y: 1225}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -332,17 +332,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -1280
-    m_HBaseRangeMax: 1280
-    m_VBaseRangeMin: -720
-    m_VBaseRangeMax: 720
+    m_HBaseRangeMin: -766.3334
+    m_HBaseRangeMax: 766.3334
+    m_VBaseRangeMin: -408.33334
+    m_VBaseRangeMax: 408.33334
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 1
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -355,20 +355,20 @@ MonoBehaviour:
       y: 21
       width: 1532.6666
       height: 816.6667
-    m_Scale: {x: 0.5671297, y: 0.5671297}
-    m_Translation: {x: 766.3334, y: 408.33328}
+    m_Scale: {x: 0.99999994, y: 0.99999994}
+    m_Translation: {x: 766.3333, y: 408.33334}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1351.2489
-      y: -719.9999
-      width: 2702.4978
-      height: 1439.9999
+      x: -766.3334
+      y: -408.33337
+      width: 1532.6667
+      height: 816.66675
     m_MinimalGUI: 1
-  m_defaultScale: 0.5671297
+  m_defaultScale: 0.99999994
   m_LastWindowPixelSize: {x: 2299, y: 1256.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -407,9 +407,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ea680200
-      m_LastClickedID: 157930
-      m_ExpandedIDs: 2c8ffafffe2cfdff16f7ffffecfaffff8cbb0000acca000012f10000ae120100be1902002432020044410200aa67020048890200
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: e8faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -725,9 +725,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 109.65878, y: 31.624481, z: 90.270645}
+    m_Target: {x: 70.50068, y: 35.59999, z: 92.410126}
     speed: 2
-    m_Value: {x: 109.65878, y: 31.624481, z: 90.270645}
+    m_Value: {x: 70.50068, y: 35.59999, z: 92.410126}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -774,13 +774,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.013259212, y: 0.18192524, z: -0.0025390198, w: 0.9832918}
+    m_Target: {x: -0.032844223, y: 0.80823696, z: -0.044711336, w: -0.5863663}
     speed: 2
-    m_Value: {x: 0.011783438, y: 0.18191594, z: -0.0022658936, w: 0.98324084}
+    m_Value: {x: -0.032841757, y: 0.8081763, z: -0.04470798, w: -0.58632225}
   m_Size:
-    m_Target: 0.5522964
+    m_Target: 2.0847328
     speed: 2
-    m_Value: 0.5522964
+    m_Value: 2.0847328
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -835,9 +835,8 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_SearchFilter:
-    m_NameFilter: Beekeeping
-    m_ClassNames:
-    - scene
+    m_NameFilter: 
+    m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
     m_VersionControlStates: []
@@ -848,22 +847,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Particle Systems
     m_Globs: []
-    m_OriginalText: Beekeeping t:scene
+    m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Particle Systems
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Work\Beekeeping Backup\Beekeping\ForgeBeekeepingVR
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 224.33331}
-    m_SelectedIDs: 2a7d0000
-    m_LastClickedID: 32042
-    m_ExpandedIDs: 00000000787a00007a7a00007c7a00007e7a000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 234}
+    m_SelectedIDs: 4e290100
+    m_LastClickedID: 76110
+    m_ExpandedIDs: 000000005c2701005e2701006027010062270100642701006627010000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -891,7 +890,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000787a00007a7a00007c7a00007e7a000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000005c2701005e27010060270100622701006427010066270100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1139,7 +1138,7 @@ MonoBehaviour:
     m_CachedPref: 397
     m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 157930
+  m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
