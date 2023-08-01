@@ -9,7 +9,6 @@ public class HiveToolController : MonoBehaviour
         if(other.CompareTag("Frame"))
         {
             other.gameObject.GetComponent<Rigidbody>().isKinematic = false;
-            Debug.Log("Hive frame loosened");
         }
     }
 }

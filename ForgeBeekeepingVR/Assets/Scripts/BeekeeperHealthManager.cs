@@ -15,12 +15,12 @@ public class BeekeeperHealthManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
-        //if(health <= 0)
-        //{
-        //    Die();
-        //}
+        if (health <= 0)
+        {
+            Die();
+        }
     }
 
     public void TakeDamage()
@@ -31,18 +31,16 @@ public class BeekeeperHealthManager : MonoBehaviour
         }
         else
         {
-            health -= 209;
+            health -= 15;
         }
 
         //Flash red borders around edge of screen
-
-        Debug.Log("Current Health: " + health);
     }
 
     public void Die()
     {
         DeathCanvas.SetActive(true);
-        StartCoroutine(ReloadScene());
+        //StartCoroutine(ReloadScene());
     }
 
     private IEnumerator ReloadScene()
