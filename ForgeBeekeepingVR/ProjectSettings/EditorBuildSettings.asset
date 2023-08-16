@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Beekeeping Mechanics Setup Scene.unity
     guid: c49af3d7e5e4c0d47acfe31017ac09b4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Beekeeping Scene w Tutorials.unity
     guid: 415aa41bafe38864ea3fabbcf99401a6
+  - enabled: 1
+    path: Assets/Scenes/Levels SCN Folder/Beekeeping Intro Level.unity
+    guid: 031e5585c88200e40ab5988cc80d07dc
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}

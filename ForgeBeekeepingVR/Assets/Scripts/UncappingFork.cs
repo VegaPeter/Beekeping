@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class UncappingFork : MonoBehaviour
 {
-    ParticleSystem honeyDrip;
+    ParticleSystem honeyDrip; 
     [HideInInspector] public bool uncappedHoneyFromFrame;
 
     private void OnTriggerEnter(Collider other)

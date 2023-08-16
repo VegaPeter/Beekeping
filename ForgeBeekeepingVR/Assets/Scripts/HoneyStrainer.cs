@@ -61,9 +61,10 @@ public class HoneyStrainer : MonoBehaviour
             }
 
             filledWithUnstrainedHoney = true;
-            Renderer meshRendererFrame = other.gameObject.GetComponentInChildren<MeshRenderer>();
-            meshRendererFrame.gameObject.GetComponentInChildren<GameObject>().SetActive(false);
-            meshRendererFrame.enabled = false;   
+            other.gameObject.SetActive(false);
+            //Renderer meshRendererFrame = other.gameObject.GetComponentInChildren<MeshRenderer>();
+            //meshRendererFrame.gameObject.GetComponentInChildren<GameObject>().SetActive(false);
+            //meshRendererFrame.enabled = false;   
         }
     }
 

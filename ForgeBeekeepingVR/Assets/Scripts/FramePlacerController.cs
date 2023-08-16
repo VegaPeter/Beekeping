@@ -24,8 +24,6 @@ public class FramePlacerController : MonoBehaviour
 
             placedFrameForUncapping.SetActive(true);
             Destroy(other.gameObject);
-
-
         }
     }
 }
