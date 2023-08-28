@@ -1023,6 +1023,10 @@
       <Project>{4B9DB299-967C-D234-C3A8-BCA9DF8767A7}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Player.csproj">
+      <Project>{F1A77E48-3570-1A3A-2C35-C8F5D216EF1A}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Player.csproj">
       <Project>{65360DB6-968A-774D-E2AC-84C0B326DFF0}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime.Player</Name>
@@ -1063,6 +1067,10 @@
       <Project>{B6CD7F62-F73B-2694-4E65-AD81BEE52385}</Project>
       <Name>Oculus.Platform.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.CoreUtils.Player.csproj">
+      <Project>{DAD1DC6F-398D-A91A-30AB-AB8643AEFED0}</Project>
+      <Name>Unity.XR.CoreUtils.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Facebook.Wit.TTS.Samples.Player.csproj">
       <Project>{FB1615F6-6027-805F-4F21-391D5A506099}</Project>
       <Name>Facebook.Wit.TTS.Samples.Player</Name>
@@ -1079,10 +1087,6 @@
       <Project>{1DF445BB-0191-B484-F472-E5E62F84FF99}</Project>
       <Name>VoiceSDK.Runtime.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Oculus.Player.csproj">
-      <Project>{0AD4AB17-E7A5-F59F-EF3C-D8DC7F028554}</Project>
-      <Name>Unity.XR.Oculus.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.ConformanceAutomation.Player.csproj">
       <Project>{B5ABE642-DEF7-A33A-E096-DF91D7329E55}</Project>
       <Name>Unity.XR.OpenXR.Features.ConformanceAutomation.Player</Name>
@@ -1090,6 +1094,10 @@
     <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj">
       <Project>{29EA0180-9FBD-03B7-C0E9-E1AD970EFE95}</Project>
       <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Oculus.Player.csproj">
+      <Project>{0AD4AB17-E7A5-F59F-EF3C-D8DC7F028554}</Project>
+      <Name>Unity.XR.Oculus.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

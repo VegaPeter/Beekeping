@@ -761,6 +761,10 @@
       <Project>{3AE7F27C-7257-C764-1C5A-F54F022582AE}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.CoreUtils.Editor.csproj">
+      <Project>{A332C2BC-1BF3-259D-59EF-1ADDEF8296F7}</Project>
+      <Name>Unity.XR.CoreUtils.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{D22BC0CB-A80E-29B9-2D9E-99BA2A429760}</Project>
       <Name>UnityEditor.UI</Name>

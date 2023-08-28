@@ -856,6 +856,10 @@
       <Project>{D05E8814-AF50-BA80-9988-805725651F99}</Project>
       <Name>Unity.EditorCoroutines.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.CoreUtils.Editor.csproj">
+      <Project>{A332C2BC-1BF3-259D-59EF-1ADDEF8296F7}</Project>
+      <Name>Unity.XR.CoreUtils.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Facebook.Wit.Dictation.csproj">
       <Project>{7AE44424-67E7-6E86-029B-E812B5530FB6}</Project>
       <Name>Facebook.Wit.Dictation</Name>
@@ -980,6 +984,10 @@
       <Project>{9896ADF6-68F4-721D-ACD3-08D30125D0E0}</Project>
       <Name>Unity.Burst.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.csproj">
+      <Project>{33A31CB0-36B7-2494-0050-60BA9C27C68D}</Project>
+      <Name>Unity.XR.Interaction.Toolkit</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
       <Project>{31137455-E6BA-F88B-986E-7DFF7DD35D77}</Project>
       <Name>Unity.2D.Sprite.Editor</Name>
@@ -1080,6 +1088,10 @@
       <Project>{DEE1C03A-5C93-71CE-2CDA-219D67A785A8}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.CoreUtils.csproj">
+      <Project>{0A50A0D4-D754-D1FD-7778-C008FBBCDB03}</Project>
+      <Name>Unity.XR.CoreUtils</Name>
+    </ProjectReference>
     <ProjectReference Include="Oculus.LipSync.Editor.csproj">
       <Project>{15399276-F146-8B9F-F987-8DAD086E8D9F}</Project>
       <Name>Oculus.LipSync.Editor</Name>
@@ -1104,9 +1116,9 @@
       <Project>{F44234B3-4F0D-5CD6-6589-C8AD40B85F5B}</Project>
       <Name>VoiceSDK.Runtime</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Oculus.csproj">
-      <Project>{1854E9BC-0F99-BFAA-C6F5-B1F3F1CF2350}</Project>
-      <Name>Unity.XR.Oculus</Name>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Editor.csproj">
+      <Project>{438A5A9A-2DCB-964F-346C-0DEEAE38792F}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.SpatialTracking.csproj">
       <Project>{4C737A92-0CA3-78EA-86B2-BA21C8B4653C}</Project>
@@ -1127,6 +1139,10 @@
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
       <Project>{882AA718-43C1-1B63-2128-EB59161022DE}</Project>
       <Name>Unity.RenderPipelines.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Oculus.csproj">
+      <Project>{1854E9BC-0F99-BFAA-C6F5-B1F3F1CF2350}</Project>
+      <Name>Unity.XR.Oculus</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.csproj">
       <Project>{A2B762D4-9658-7953-095F-AEF92EAA14E6}</Project>

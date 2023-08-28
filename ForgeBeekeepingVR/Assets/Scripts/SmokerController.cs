@@ -14,7 +14,8 @@ public class SmokerController : MonoBehaviour
     [SerializeField] Collider smokerCollider;
     [SerializeField] HVRPlayerInputs playerRig;
     [SerializeField] ParticleSystem passiveSmoke, activeSmoke;
-    bool isHeld = false, isLit = true; //defaulted isLit to true for now
+    [SerializeField] Animator _smokerAnimator;
+    bool isHeld = false, isLit = false; //defaulted isLit to true for now
 
     public bool IsLit { get; set; }
 
@@ -28,12 +29,14 @@ public class SmokerController : MonoBehaviour
             //Checks to see if isHeld is true (isHeld is set when the smoker is picked up) and then if either trigger is held.
             if (isHeld && ((playerRig.IsLeftTriggerHoldActive == true && playerRig.IsLeftGripHoldActive) || (playerRig.IsRightTriggerHoldActive == true && playerRig.IsRightGripHoldActive)))
             {
+                _smokerAnimator.SetBool("BellowSqueezed", true);
                 passiveSmoke.Stop();
                 activeSmoke.Play();
                 smokerCollider.enabled = true;
             }
             else
             {
+                _smokerAnimator.SetBool("BellowSqueezed", false);
                 passiveSmoke.Play();
                 activeSmoke.Stop();
                 smokerCollider.enabled = false;
@@ -53,10 +56,29 @@ public class SmokerController : MonoBehaviour
         {
             other.gameObject.GetComponentInParent<BeeHiveController>().BeeAgressionManager(0);
         }
+        else if(other.CompareTag("Kindling"))
+        {
+            PrepareSmoker();
+            other.gameObject.SetActive(false);
+        }
     }
 
-    public void LightSmoker()
+    void LightSmoker()
     {
-        isLit = !isLit;
+        isLit = true;
+
+        //passiveSmoke.Play();
+        _smokerAnimator.SetBool("SmokerPrepared", true);
+    }
+
+    public void PrepareSmoker()
+    {
+        _smokerAnimator.SetBool("PreparingSmoker", true);
+    }
+
+    public void SmokerPrepared()
+    {
+        _smokerAnimator.SetBool("PreparingSmoker", false);
+        LightSmoker();
     }
 }

@@ -57,7 +57,7 @@ ModelImporter:
       takeName: Armature|ArmatureAction
       internalID: 8985345239019802051
       firstFrame: 120
-      lastFrame: 145
+      lastFrame: 140
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -188,7 +188,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1

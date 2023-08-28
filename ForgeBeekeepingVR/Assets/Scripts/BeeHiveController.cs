@@ -93,7 +93,7 @@ public class BeeHiveController : MonoBehaviour
 
         hiveFrame1.GetComponent<Rigidbody>().isKinematic = true;
         hiveFrame2.GetComponent<Rigidbody>().isKinematic = true;
-        hiveFrame3.GetComponent<Rigidbody>().isKinematic = true;
+        hiveFrame3.GetComponent<Rigidbody>().isKinematic = true; 
 
         yield return new WaitForSeconds(1);
 
@@ -103,7 +103,6 @@ public class BeeHiveController : MonoBehaviour
     public void HiveCoverRemoved()
     {
         StartCoroutine(CoverRemoved());
-        StopCoroutine(CoverRemoved());
     }
 
     private void OnTriggerStay(Collider other)

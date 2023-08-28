@@ -184,8 +184,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@12.1.8\Editor\Models\Operators\Implementations\ChangeSpace.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@12.1.8\Editor\Models\VFXErrorManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@12.1.8\Editor\Models\Operators\Implementations\TransformDirection.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@12.1.8\Editor\Models\Blocks\Implementations\Attribute\SetCustomAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@12.1.8\Editor\Utilities\pCache\BakeTool\PointCacheBakeTool.Mesh.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@12.1.8\Editor\Models\Blocks\Implementations\Attribute\SetCustomAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@12.1.8\Editor\Models\Operators\Implementations\SampleAttributeMap.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@12.1.8\Editor\GraphView\Elements\Controllers\VFXContextController.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@12.1.8\Editor\Models\Operators\Implementations\PeriodicTotalTime.cs" />

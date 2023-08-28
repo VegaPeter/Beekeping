@@ -15,6 +15,7 @@ TagManager:
   - Render
   - NoFrameNoStrain
   - WritingInstrument
+  - Kindling
   layers:
   - Default
   - TransparentFX
