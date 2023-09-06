@@ -12,6 +12,16 @@ public class TutorialActiveController : MonoBehaviour
         if (index >= tutorialList.Count - 1) return;
 
         index++;
+        Collider coll = tutorialList[index].gameObject.GetComponent<BoxCollider>();
+        coll.enabled = false;
         tutorialList[index].gameObject.SetActive(true);
+
+        StartCoroutine(EnableCollider(coll));
+    }
+
+    IEnumerator EnableCollider(Collider colliderToEnable)
+    {
+        yield return new WaitForSeconds(1.5f);
+        colliderToEnable.enabled = true;
     }
 }

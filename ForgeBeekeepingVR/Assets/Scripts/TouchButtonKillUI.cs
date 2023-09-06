@@ -22,4 +22,4 @@ public class TouchButtonKillUI : MonoBehaviour
             _thisUI.gameObject.SetActive(false);
         }
     }
-}
+} 

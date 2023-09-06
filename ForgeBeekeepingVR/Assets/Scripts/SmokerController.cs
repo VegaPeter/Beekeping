@@ -15,9 +15,10 @@ public class SmokerController : MonoBehaviour
     [SerializeField] HVRPlayerInputs playerRig;
     [SerializeField] ParticleSystem passiveSmoke, activeSmoke;
     [SerializeField] Animator _smokerAnimator;
-    bool isHeld = false, isLit = false; //defaulted isLit to true for now
+    bool isHeld = false;
+    [SerializeField] bool isLit = false; //defaulted isLit to true for now
 
-    public bool IsLit { get; set; }
+     public bool IsLit { get; set; }
 
     // Update is called once per frame
     void Update()
