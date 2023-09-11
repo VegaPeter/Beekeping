@@ -16,6 +16,8 @@ TagManager:
   - NoFrameNoStrain
   - WritingInstrument
   - Kindling
+  - Inner Cover
+  - Outer Cover
   layers:
   - Default
   - TransparentFX
