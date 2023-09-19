@@ -1,0 +1,306 @@
+fileFormatVersion: 2
+guid: c390e5a319f8aea4b9336a97616dcbae
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Door
+    second: {fileID: 2100000, guid: 3cbb5528eeb82fa42b253abcd94b23af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Floor
+    second: {fileID: 2100000, guid: 7f4e4596bb3ea5b4c9c791a77798c6e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Porch
+    second: {fileID: 2100000, guid: 90d8a5ae6cda6cc488b229da7e8c435a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Roof
+    second: {fileID: 2100000, guid: a0088dd0f241e2046bdbe0b2e711b351, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Struts
+    second: {fileID: 2100000, guid: b49277f76eed4c343a7f0c6639e2c5ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Wall_Inner
+    second: {fileID: 2100000, guid: a5886c3e8bdccd648aadbe94f5353ff2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Wall_Outer
+    second: {fileID: 2100000, guid: a5d88ec3a01f27b45bf5fa301d6d7fea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Window_Large
+    second: {fileID: 2100000, guid: 87a4e82dbc444a14ba3683912066fcab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Window_Skylight
+    second: {fileID: 2100000, guid: 27673090d783d3e44b14039ce36b1a19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_Window_Small
+    second: {fileID: 2100000, guid: 1c6c98f1c99468e449cfc2daf0f9d69e, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Misc_Tex_Door_AlbedoTransparency
+    second: {fileID: 2800000, guid: 408525a1b287df741b788ba85c7687f2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Misc_Tex_Door_MetallicSmoothness
+    second: {fileID: 2800000, guid: 4711cda6825a3f240af79409852f7b69, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Misc_Tex_Door_Normal
+    second: {fileID: 2800000, guid: ac3b2aacf882c5844baf797d3df79c55, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Misc_Tex_Window_Large_AlbedoTransparency
+    second: {fileID: 2800000, guid: 75f965344812c4a418e211b10ac9e53f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Misc_Tex_Window_Large_MetallicSmoothness
+    second: {fileID: 2800000, guid: a60c61bc5ff8e2244be2d16566e7778c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Misc_Tex_Window_Large_Normal
+    second: {fileID: 2800000, guid: a0eb2cdf82ef8e645a1bec37bd4df29a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Misc_Tex_Window_Skylight_AlbedoTransparency
+    second: {fileID: 2800000, guid: e49fa0e5b58f0634090ba9f3d51a4b88, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Misc_Tex_Window_Skylight_MetallicSmoothness
+    second: {fileID: 2800000, guid: 2233bdedc95063c41b7c79c958c4f6bb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Misc_Tex_Window_Skylight_Normal
+    second: {fileID: 2800000, guid: 3a2bc048493c75a43a7344c3f213f210, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Misc_Tex_Window_Small_AlbedoTransparency
+    second: {fileID: 2800000, guid: 22143b18a3e2c694c82a3b5aa91cda92, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Misc_Tex_Window_Small_MetallicSmoothness
+    second: {fileID: 2800000, guid: d40a3b83d66554745af1f62ee4beb8cc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Misc_Tex_Window_Small_Normal
+    second: {fileID: 2800000, guid: c06141e8def48824281998936868399a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Tex_Floor_AlbedoTransparency
+    second: {fileID: 2800000, guid: e0b3cb02417139e40998e42e4e4075ae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Tex_Floor_MetallicSmoothness
+    second: {fileID: 2800000, guid: f1d6fc7e3ec8495448c5a8db55cc165f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Tex_Floor_Normal
+    second: {fileID: 2800000, guid: 9018ca4dfb4cef64c97569b856295ba9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Tex_Porch_AlbedoTransparency
+    second: {fileID: 2800000, guid: 0535a2df1671ea9489f40d795d595113, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Tex_Porch_MetallicSmoothness
+    second: {fileID: 2800000, guid: 08628f7ac3e91b2468a550a615349788, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Tex_Porch_Normal
+    second: {fileID: 2800000, guid: 822a2d7efcd3fac4c93c8882176b189d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Tex_Roof_AlbedoTransparency
+    second: {fileID: 2800000, guid: a29fccd9d434e6a4a805875e2ae4b719, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Tex_Roof_MetallicSmoothness
+    second: {fileID: 2800000, guid: 1e13acf60ca27a446936426c2d1a9b86, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Tex_Roof_Normal
+    second: {fileID: 2800000, guid: 599d394bfcb421c49be147d4288e9fbf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Tex_Struts_AlbedoTransparency
+    second: {fileID: 2800000, guid: 9313cf537c6790d4cb5101db419ca4fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Tex_Struts_MetallicSmoothness
+    second: {fileID: 2800000, guid: b9f31715dda84424a8144d7941747b94, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Tex_Struts_Normal
+    second: {fileID: 2800000, guid: b6691143af942634586d858c7ad8da6b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Tex_Wall_Inner_AlbedoTransparency
+    second: {fileID: 2800000, guid: 1eb12e3a0290b3048bda4412356bce1a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Tex_Wall_Inner_MetallicSmoothness
+    second: {fileID: 2800000, guid: 1dcbdc37bf943d448856df32f460a99c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Tex_Wall_Inner_Normal
+    second: {fileID: 2800000, guid: a67c05bf8e1f38f408e6975135e263f2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Tex_Wall_Outer_AlbedoTransparency
+    second: {fileID: 2800000, guid: 6de0ae18e3a4e1d4fa4f6485927ee815, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Tex_Wall_Outer_MetallicSmoothness
+    second: {fileID: 2800000, guid: 94dc0b0b1729fc3479dfcab41bc0a6b2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mesh_Farmhouse_010_Tex_Wall_Outer_Normal
+    second: {fileID: 2800000, guid: cc3840cb78829af49b740032f3db4098, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
