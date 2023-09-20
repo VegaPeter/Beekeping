@@ -12,6 +12,7 @@ public class RecordKeepingController : MonoBehaviour
     {
         if(other.CompareTag("WritingInstrument"))
         {
+            _whyIsRecordKeepingImportantUI.GetComponent<RectTransform>().transform.localScale = maxScale;
             _whyIsRecordKeepingImportantUI.SetActive(true);
             _whyIsRecordKeepingImportantUI.transform.localScale = Vector3.Lerp(_whyIsRecordKeepingImportantUI.transform.localScale, maxScale, rateOfLerp * Time.deltaTime);
         }
@@ -19,7 +20,10 @@ public class RecordKeepingController : MonoBehaviour
 
     private void Start()
     {
+        //_whyIsRecordKeepingImportantUI.GetComponent<RectTransform>().transform.localScale = maxScale;
+
         _whyIsRecordKeepingImportantUI.SetActive(true);
-        _whyIsRecordKeepingImportantUI.transform.localScale = Vector3.Lerp(_whyIsRecordKeepingImportantUI.transform.localScale, maxScale, rateOfLerp * Time.deltaTime);
+        //_whyIsRecordKeepingImportantUI.transform.localScale = Vector3.Lerp(_whyIsRecordKeepingImportantUI.transform.localScale, maxScale, rateOfLerp * Time.deltaTime);
+        _whyIsRecordKeepingImportantUI.GetComponent<RectTransform>().transform.localScale = Vector3.Lerp(_whyIsRecordKeepingImportantUI.transform.localScale, maxScale, rateOfLerp * Time.deltaTime);
     }
 }
