@@ -18,6 +18,9 @@ MonoBehaviour:
   WMR:
     Position: {x: 0, y: 0, z: 0}
     Rotation: {x: 40, y: 0, z: 0}
+  Pico:
+    Position: {x: 0.01, y: 0.01, z: 0.01}
+    Rotation: {x: 10, y: 0, z: 0}
   OculusSteamVR:
     Position: {x: -0.001, y: -0.005, z: -0.05}
     Rotation: {x: 40, y: 0, z: 0}

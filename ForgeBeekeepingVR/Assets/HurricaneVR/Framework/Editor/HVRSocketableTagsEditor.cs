@@ -8,15 +8,20 @@ namespace HurricaneVR.Editor
     public class HVRSocketableTagsEditor : UnityEditor.Editor
     {
         private HVRSocketableTags tags;
+        private SerializedProperty SPIdentifier;
 
         private void OnEnable()
         {
             tags = target as HVRSocketableTags;
+            SPIdentifier = serializedObject.FindProperty(nameof(HVRSocketableTags.Identifier));
         }
 
         public override void OnInspectorGUI()
         {
             EditorGUILayout.BeginVertical(EditorStyles.helpBox);
+
+            EditorGUILayout.PropertyField(SPIdentifier);
+            
             GUILayout.Space(5);
 
             for (int i = 0; i < 32; i++)

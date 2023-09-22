@@ -131,6 +131,9 @@ namespace HurricaneVR.Framework.Core.Grabbers
         [Tooltip("Sphere collider that checks when collisions should be re-enabled between a released grabbable and this hand.")]
         public Transform OverlapSizer;
 
+        [Tooltip("Player controller transform, used to find the correct relative velocity of the hands")]
+        public Transform PlayerController;
+
         [Header("Throw Settings")]
         [Tooltip("Factor to apply to the linear velocity of the throw.")]
         public float ReleasedVelocityFactor;
@@ -184,7 +187,7 @@ namespace HurricaneVR.Framework.Core.Grabbers
 
         public bool IsLeftHand => HandSide == HVRHandSide.Left;
         public bool IsRightHand => HandSide == HVRHandSide.Right;
-        
+
         public HVRHandStrengthHandler StrengthHandler { get; set; }
 
         public Transform HandModelParent { get; private set; }
@@ -382,6 +385,8 @@ namespace HurricaneVR.Framework.Core.Grabbers
         private Vector3 _lineGrabHandRelativeDirection;
         private WaitForFixedUpdate _wffu;
         private bool _moveGrab;
+        private Vector3 _lastPlayerPos;
+        private Vector3 _playerVel;
         protected bool IsGripGrabActivated;
         protected bool IsTriggerGrabActivated;
         protected bool IsGripGrabActive;
@@ -1325,6 +1330,10 @@ namespace HurricaneVR.Framework.Core.Grabbers
 
         private void TrackVelocities()
         {
+            _playerVel = Vector3.zero;
+            if (PlayerController)
+                _playerVel = (PlayerController.position - _lastPlayerPos) / Time.deltaTime;
+
             var deltaRotation = transform.rotation * Quaternion.Inverse(_previousRotation);
             deltaRotation.ToAngleAxis(out var angle, out var axis);
             angle *= Mathf.Deg2Rad;
@@ -1332,6 +1341,9 @@ namespace HurricaneVR.Framework.Core.Grabbers
 
             RecentVelocities.Enqueue(Rigidbody.velocity);
             RecentAngularVelocities.Enqueue(angularVelocity);
+
+            if (PlayerController)
+                _lastPlayerPos = PlayerController.position;
         }
 
         protected virtual void CheckSocketUnhover()
@@ -1750,7 +1762,7 @@ namespace HurricaneVR.Framework.Core.Grabbers
 
             if (!grabbable.CanHandGrab(this))
                 return false;
-            
+
             if ((!AllowMultiplayerSwap && !grabbable.AllowMultiplayerSwap) && grabbable.HoldType != HVRHoldType.ManyHands && grabbable.AnyGrabberNotMine())
             {
                 return false;
@@ -2609,9 +2621,11 @@ namespace HurricaneVR.Framework.Core.Grabbers
 
                 if (grabbable.Rigidbody && !grabbable.Rigidbody.isKinematic)
                 {
-                    var throwVelocity = ComputeThrowVelocity(grabbable, out var angularVelocity, true);
-                    grabbable.Rigidbody.velocity = throwVelocity;
-                    grabbable.Rigidbody.angularVelocity = angularVelocity;
+                    var throwVelocity = ComputeThrowVelocity(grabbable, out var angularVelocity);
+                    if(!throwVelocity.IsInvalid())
+                        grabbable.Rigidbody.velocity = throwVelocity;
+                    if(!throwVelocity.IsInvalid())
+                        grabbable.Rigidbody.angularVelocity = angularVelocity;
                     //prevent clipping on throw
                     if (timeout < .2f && grabbable.Rigidbody.velocity.magnitude > 2f) timeout = .2f;
                 }
@@ -2727,7 +2741,7 @@ namespace HurricaneVR.Framework.Core.Grabbers
         }
 
 
-        public Vector3 ComputeThrowVelocity(HVRGrabbable grabbable, out Vector3 angularVelocity, bool isThrowing = false)
+        public Vector3 ComputeThrowVelocity(HVRGrabbable grabbable, out Vector3 angularVelocity, bool playerRelative = false)
         {
             if (!grabbable.Rigidbody)
             {
@@ -2739,8 +2753,16 @@ namespace HurricaneVR.Framework.Core.Grabbers
             var grabbableAngular = grabbable.GetAverageAngularVelocity(ThrowLookback, ThrowLookbackStart);
 
             var handVelocity = GetAverageVelocity(ThrowLookback, ThrowLookbackStart);
+            
+            if (playerRelative)
+            {
+                handVelocity -= _playerVel;
+                grabbableVelocity -= _playerVel;
+            }
+            
             var handAngularVelocity = GetAverageAngularVelocity(ThrowLookback, ThrowLookbackStart);
 
+            //var throwVelocity = handVelocity * (ReleasedVelocityFactor * grabbable.ReleasedVelocityFactor);
             var throwVelocity = ReleasedVelocityFactor * handVelocity + grabbableVelocity * grabbable.ReleasedVelocityFactor;
 
             //Debug.Log($"{handAngularVelocity.magnitude}");
@@ -2766,6 +2788,8 @@ namespace HurricaneVR.Framework.Core.Grabbers
 
             angularVelocity = grabbableAngular * grabbable.ReleasedAngularFactor;
 
+       
+            
             return throwVelocity;
         }
 

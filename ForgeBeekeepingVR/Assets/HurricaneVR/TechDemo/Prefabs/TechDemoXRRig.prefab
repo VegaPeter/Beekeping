@@ -7863,6 +7863,11 @@ PrefabInstance:
       objectReference: {fileID: 5719880625566535245}
     - target: {fileID: 7225827257204802960, guid: 8ea76324715412b4a8260e02298b256c,
         type: 3}
+      propertyPath: PlayerController
+      value: 
+      objectReference: {fileID: 3924027509007222378}
+    - target: {fileID: 7225827257204802960, guid: 8ea76324715412b4a8260e02298b256c,
+        type: 3}
       propertyPath: TrackedController
       value: 
       objectReference: {fileID: 3924027509947911011}
@@ -8389,6 +8394,11 @@ PrefabInstance:
       propertyPath: CollisionHandler
       value: 
       objectReference: {fileID: 5719880625566535245}
+    - target: {fileID: 8235104264928891721, guid: 844a8eb585cbc34429696dd0a02d9a44,
+        type: 3}
+      propertyPath: PlayerController
+      value: 
+      objectReference: {fileID: 3924027509007222378}
     - target: {fileID: 8235104264928891721, guid: 844a8eb585cbc34429696dd0a02d9a44,
         type: 3}
       propertyPath: TrackedController

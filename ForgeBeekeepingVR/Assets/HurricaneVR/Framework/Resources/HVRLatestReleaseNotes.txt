@@ -1,3 +1,14 @@
+2.9.1g
+
+Fixed HVRSocket from being able to grab two objects when GrabsFromHand is enabled.
+Move HVRPosableGrabPoint initialization to awake instead of start so newly instantiated objects can be grabbed immediately. 
+
+
+2.9.1f
+
+Fixed HVRStringSocketFilter / HVRStringSocketable filtering pair.
+Fixed shoulder socket not working when moving forward.
+
 2.9.1e            
 
 New:

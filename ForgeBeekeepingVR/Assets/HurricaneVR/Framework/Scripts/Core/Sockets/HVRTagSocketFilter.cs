@@ -7,9 +7,9 @@ namespace HurricaneVR.Framework.Core.Sockets
     {
         public HVRSocketableTag Tags;
 
+      
         [Tooltip("If true, the socketable is valid as long as a there is a single match, otherwise all selected tags must be assigned on the socketable.")]
         public bool Any = true;
-
 
         public void Reset()
         {
@@ -31,12 +31,12 @@ namespace HurricaneVR.Framework.Core.Sockets
         {
             var tagSocketable = socketable as HVRTagSocketable;
             
-            if (tagSocketable == null || tagSocketable.Tags == null)
+            if (!tagSocketable || tagSocketable.Tags == null)
                 return false;
 
             var socketableTags = tagSocketable.Tags;
 
-            if (socketableTags.Tags != Tags.Tags)
+            if (!socketableTags.Tags.MatchesTags(Tags.Tags))
                 return false;
             
             var anyHit = false;

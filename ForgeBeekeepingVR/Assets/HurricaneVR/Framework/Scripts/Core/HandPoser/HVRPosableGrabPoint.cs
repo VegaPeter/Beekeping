@@ -95,7 +95,7 @@ namespace HurricaneVR.Framework.Core.HandPoser
 
         public List<HVRPosableGrabPoint> Others = new List<HVRPosableGrabPoint>();
 
-        protected virtual void Start()
+        protected virtual void Awake()
         {
             if (!HandPoser)
                 TryGetComponent(out HandPoser);
@@ -128,6 +128,11 @@ namespace HurricaneVR.Framework.Core.HandPoser
                     Debug.LogWarning($"Left Hand pose missing! {(Grabbable != null ? Grabbable.name : null)}.{this.name}");
                 }
             }
+        }
+
+        protected virtual void Start()
+        {
+            
         }
 
         public void AddGroupedGrabPoint(HVRPosableGrabPoint p)

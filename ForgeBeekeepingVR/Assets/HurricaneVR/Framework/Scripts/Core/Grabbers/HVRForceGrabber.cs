@@ -270,6 +270,7 @@ namespace HurricaneVR.Framework.Core.Grabbers
                 }
             }
 
+            args.Grabbable.IsBeingForcedGrabbed = true;
             IsForceGrabbing = true;
             if (GrabStyle == HVRForceGrabMode.GravityGloves)
             {
@@ -289,6 +290,13 @@ namespace HurricaneVR.Framework.Core.Grabbers
                 if (SFXPlayer.Instance) SFXPlayer.Instance.PlaySFX(SFXGrab, transform.position);
 
             OnGrabbedHaptics();
+        }
+
+        protected override void OnReleased(HVRGrabbable grabbable)
+        {
+            base.OnReleased(grabbable);
+            
+            grabbable.IsBeingForcedGrabbed = false;
         }
 
         protected override void OnHoverEnter(HVRGrabbable grabbable)
@@ -369,7 +377,6 @@ namespace HurricaneVR.Framework.Core.Grabbers
             rb.angularDrag = 0f;
             rb.drag = 0f;
 
-            grabbable.IsBeingForcedGrabbed = true;
             IsHoldActive = true;
 
             var grabPoint = grabbable.GetGrabPointTransform(HandGrabber, GrabpointFilter.ForceGrab);
@@ -516,7 +523,7 @@ namespace HurricaneVR.Framework.Core.Grabbers
                 rb.velocity = Vector3.ClampMagnitude(rb.velocity, settings.MaxMissSpeed);
                 rb.angularVelocity = Vector3.ClampMagnitude(rb.angularVelocity, settings.MaxMissAngularSpeed);
                 rb.centerOfMass = com;
-                grabbable.IsBeingForcedGrabbed = false;
+               
 
                 if (IsGrabbing)
                 {
@@ -539,6 +546,8 @@ namespace HurricaneVR.Framework.Core.Grabbers
                         ForceRelease();
                     }
                 }
+                
+                
             }
         }
 
@@ -565,7 +574,7 @@ namespace HurricaneVR.Framework.Core.Grabbers
                 _grabbableCollided = false;
                 IsHoldActive = true;
 
-                grabbable.IsBeingForcedGrabbed = true;
+                
                 grabbable.Rigidbody.useGravity = false;
                 grabbable.Rigidbody.drag = 0f;
                 grabbable.Rigidbody.angularDrag = 0f;
@@ -704,7 +713,6 @@ namespace HurricaneVR.Framework.Core.Grabbers
                     rb.useGravity = useGrav;
                     rb.drag = drag;
                     rb.angularDrag = angularDrag;
-                    grabbable.IsBeingForcedGrabbed = false;
                     grabbable.Collided.RemoveListener(OnGrabbableCollided);
                     grabbable.Grabbed.RemoveListener(OnGrabbableGrabbed);
                 }

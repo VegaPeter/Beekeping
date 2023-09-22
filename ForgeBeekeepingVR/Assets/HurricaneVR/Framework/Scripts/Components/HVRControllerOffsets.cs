@@ -15,10 +15,13 @@ namespace HurricaneVR.Framework.Components
     {
         [Header("Unity XR")]
         public HVRDevicePoseOffset Oculus;
+
         public HVRDevicePoseOffset WMR;
+        public HVRDevicePoseOffset Pico;
 
         [Header("SteamVR")]
         public HVRDevicePoseOffset OculusSteamVR;
+
         public HVRDevicePoseOffset WMRSteamVR;
         public HVRDevicePoseOffset ReverbG2SteamVR;
         public HVRDevicePoseOffset CosmosSteamVR;
@@ -27,11 +30,13 @@ namespace HurricaneVR.Framework.Components
 
         [Header("OpenXR")]
         public HVRDevicePoseOffset OculusOpenXR;
+
         public HVRDevicePoseOffset WMROpenXR;
         public HVRDevicePoseOffset ReverbG2OpenXR;
         public HVRDevicePoseOffset ViveOpenXR;
         public HVRDevicePoseOffset CosmosOpenXR;
         public HVRDevicePoseOffset KnucklesOpenXR;
+        public HVRDevicePoseOffset PicoOpenXR;
 
         public HVRDevicePoseOffset GetDeviceOffset(HVRHandSide side)
         {
@@ -47,7 +52,6 @@ namespace HurricaneVR.Framework.Components
 
             switch (type)
             {
-
                 case HVRControllerType.Oculus:
                     if (steamVR)
                     {
@@ -83,6 +87,7 @@ namespace HurricaneVR.Framework.Components
                     {
                         return ViveOpenXR;
                     }
+
                     break;
                 case HVRControllerType.Knuckles:
                     if (steamVR)
@@ -93,6 +98,7 @@ namespace HurricaneVR.Framework.Components
                     {
                         return KnucklesOpenXR;
                     }
+
                     break;
                 case HVRControllerType.Cosmos:
                     if (steamVR)
@@ -103,6 +109,7 @@ namespace HurricaneVR.Framework.Components
                     {
                         return CosmosOpenXR;
                     }
+
                     break;
                 case HVRControllerType.ReverbG2:
                     if (steamVR)
@@ -113,7 +120,14 @@ namespace HurricaneVR.Framework.Components
                     {
                         return ReverbG2OpenXR;
                     }
+
                     break;
+                case HVRControllerType.Pico:
+                    if (steamVR) //is there a way to detect pico when using steamvr? it's emulated as a oculus device 
+                        return null;
+                    if (openXr) 
+                        return PicoOpenXR;
+                    return Pico;
             }
 
             return null;
@@ -124,7 +138,9 @@ namespace HurricaneVR.Framework.Components
     public class HVRDevicePoseOffset
     {
         public Vector3 Position;
-        [FormerlySerializedAs("_rotation")] [SerializeField]
+
+        [FormerlySerializedAs("_rotation")]
+        [SerializeField]
         public Vector3 Rotation;
     }
 }

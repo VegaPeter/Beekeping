@@ -1679,7 +1679,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Strength: {fileID: 11400000, guid: 1482e8b1adffac04e8efc4fbd58275a6, type: 2}
-  JointSettings: {fileID: 0}
   SolverIterations: 10
   SolverVelocityIterations: 10
   ReturnSpeed: 5
@@ -1688,6 +1687,7 @@ MonoBehaviour:
   Anchor: {fileID: 0}
   ArmLength: 0.75
   Target: {fileID: 0}
+  JointSettings: {fileID: 0}
   ParentRigidBody: {fileID: 0}
   StrengthHandler: {fileID: 0}
   Teleporter: {fileID: 0}
@@ -1771,6 +1771,7 @@ MonoBehaviour:
   RaycastOrigin: {fileID: 6213356883639948190}
   TrackedController: {fileID: 0}
   OverlapSizer: {fileID: 5118303478303729206}
+  PlayerController: {fileID: 0}
   ReleasedVelocityFactor: 0.25
   ReleasedAngularConversionFactor: 1
   ReleasedAngularThreshold: 1
@@ -1857,10 +1858,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f47602f0c2d040e8af5e9f9d7832b6a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentSettings: {fileID: 0}
-  CurrentStrength: {fileID: 0}
-  LogStrengthChanges: 0
   AlwaysUpdateJoint: 0
+  CurrentStrength: {fileID: 0}
+  CurrentSettings: {fileID: 0}
+  LogStrengthChanges: 0
 --- !u!114 &2714101610567863011
 MonoBehaviour:
   m_ObjectHideFlags: 0

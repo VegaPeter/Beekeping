@@ -316,7 +316,11 @@ namespace HurricaneVR.Framework.Core.Grabbers
                 {
                     grabbable.PrimaryGrabber.ForceRelease();
                     //need to let the joint get destroyed so it doesn't bring the hand into the socket area forcefully
-                    this.ExecuteNextUpdate(() => TryGrab(grabbable, true));
+                    this.ExecuteNextUpdate(() =>
+                    {
+                        if (!IsGrabbing)
+                            TryGrab(grabbable, true);
+                    });
                 }
 
                 return;
@@ -447,7 +451,7 @@ namespace HurricaneVR.Framework.Core.Grabbers
             {
                 return LinkedGrabbable == grabbable;
             }
-            
+
             if (grabbable.IsStabbing && !CanGrabStabbingGrabbable || grabbable.IsStabbed || !grabbable.Socketable)
                 return false;
 

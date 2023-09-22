@@ -39,6 +39,7 @@ namespace HurricaneVR.Framework.Components
 
             switch (controller.ControllerType)
             {
+                case HVRControllerType.Pico:
                 case HVRControllerType.Oculus:
                     CenterOfMass = Oculus;
                     break;
