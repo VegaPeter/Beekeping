@@ -20,7 +20,7 @@ namespace HurricaneVR.Framework.Core.Sockets
             if (!string.IsNullOrWhiteSpace(SocketType))
             {
                 SocketType = SocketType.Trim();
-                Hash = Animator.StringToHash(SocketType);
+                Hash = Animator.StringToHash(SocketType.ToLowerInvariant());
             }
         }
     }

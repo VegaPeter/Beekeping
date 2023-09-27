@@ -358,7 +358,6 @@ namespace HurricaneVR.Framework.Core
         private bool _forceTwoHandSettings;
 
 
-        private bool _waitingForColDetectionReset;
         private Coroutine _resetCollisionDetectionRoutine;
         private readonly HashSet<Collider> _ignoredColliders = new HashSet<Collider>();
         private readonly List<HVRHandGrabFilter> _filters = new List<HVRHandGrabFilter>();
@@ -1371,9 +1370,8 @@ namespace HurricaneVR.Framework.Core
             {
                 if (!Rigidbody)
                     yield break;
-                _waitingForColDetectionReset = true;
+                
                 yield return new WaitForSeconds(10f);
-                _waitingForColDetectionReset = false;
 
                 if (!IsBeingHeld && Rigidbody)
                 {

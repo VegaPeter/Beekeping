@@ -5,20 +5,25 @@ namespace HurricaneVR.Framework.Core.Utils
 {
     public class HVRShoulderSocket : HVRSocket
     {
+        public float VelocityCutoff = 2f;
+        
         public override bool CanHover(HVRGrabbable grabbable)
         {
             if (!base.CanHover(grabbable))
                 return false;
 
             var handGrabber = grabbable.PrimaryGrabber as HVRHandGrabber;
-            if (handGrabber == null)
+            if (!handGrabber)
                 return false;
 
             //if a forward throw is happening don't grab it
-            var velocity = handGrabber.ComputeThrowVelocity(grabbable, out var dummy);
+            var velocity = handGrabber.ComputeThrowVelocity(grabbable, out var dummy, true);
             velocity.y = transform.position.y;
-            if (Vector3.Dot(velocity.normalized, transform.forward) > 0f)
+            var dot = Vector3.Dot(transform.forward, velocity);
+            if (dot > VelocityCutoff)
+            {
                 return false;
+            }
 
             return true;
         }

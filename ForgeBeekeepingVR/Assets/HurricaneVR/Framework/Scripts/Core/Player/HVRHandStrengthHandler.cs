@@ -72,7 +72,7 @@ namespace HurricaneVR.Framework.Core.Player
             }
         }
 
-        protected virtual void UpdateJoint()
+        public virtual void UpdateJoint()
         {
             if (Stopped)
                 return;

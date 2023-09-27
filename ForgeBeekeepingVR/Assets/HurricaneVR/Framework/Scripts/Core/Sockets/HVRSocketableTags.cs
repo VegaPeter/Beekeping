@@ -10,6 +10,27 @@ namespace HurricaneVR.Framework.Core.Sockets
     {
         [SerializeField] private string[] _socketables = new string[32];
 
+        [Tooltip("Needed to identify this tag file when using addressables. Will populate with the SO name if not provided.")]
+        public string Identifier;
+
+        public int Hash { get; set; }
+        
+        protected virtual void Awake()
+        {
+            if (string.IsNullOrWhiteSpace(Identifier))
+            {
+                Identifier = name;
+            }
+
+            Hash = Animator.StringToHash(Identifier);
+        }
+
+        public virtual bool MatchesTags(HVRSocketableTags other)
+        {
+            return other.Hash == Hash;
+        }
+        
+
         public string this[int index]
         {
             get { return _socketables[index]; }

@@ -499,6 +499,7 @@ namespace HurricaneVR.Framework.Shared
         Vive,
         Knuckles,
         Cosmos,
-        ReverbG2
+        ReverbG2,
+		Pico
     }
 }
