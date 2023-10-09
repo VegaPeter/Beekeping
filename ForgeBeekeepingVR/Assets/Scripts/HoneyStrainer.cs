@@ -45,14 +45,17 @@ public class HoneyStrainer : MonoBehaviour
             switch (totalFramesInStrainer)
             {
                 case 1:
+                    Destroy(other.gameObject);
                     frameONEInStrainer.SetActive(true);
                     break;
 
                 case 2:
+                    Destroy(other.gameObject);
                     frameTWOInStrainer.SetActive(true);
                     break;
 
                 case 3:
+                    Destroy(other.gameObject);
                     frameTHREEInStrainer.SetActive(true);
                     break;
 
