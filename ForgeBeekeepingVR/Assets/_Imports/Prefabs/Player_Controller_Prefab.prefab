@@ -45,52 +45,57 @@ PrefabInstance:
     - target: {fileID: 3497485227092484991, guid: c884123088440284692e484efd2c360f,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.4375
       objectReference: {fileID: 0}
     - target: {fileID: 3497485227092484991, guid: c884123088440284692e484efd2c360f,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3497485227092484991, guid: c884123088440284692e484efd2c360f,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.4375
       objectReference: {fileID: 0}
     - target: {fileID: 3497485227374402222, guid: c884123088440284692e484efd2c360f,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.4375
       objectReference: {fileID: 0}
     - target: {fileID: 3497485227374402222, guid: c884123088440284692e484efd2c360f,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3497485228358529809, guid: c884123088440284692e484efd2c360f,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.13333334
       objectReference: {fileID: 0}
     - target: {fileID: 3497485228358529809, guid: c884123088440284692e484efd2c360f,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3497485228765608965, guid: c884123088440284692e484efd2c360f,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.13333334
       objectReference: {fileID: 0}
     - target: {fileID: 3497485228765608965, guid: c884123088440284692e484efd2c360f,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3497485228765608965, guid: c884123088440284692e484efd2c360f,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.13333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 4018361015780881185, guid: c884123088440284692e484efd2c360f,
+        type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4018361015780881361, guid: c884123088440284692e484efd2c360f,
         type: 3}
@@ -107,6 +112,11 @@ PrefabInstance:
       propertyPath: CameraRig
       value: 
       objectReference: {fileID: 6033940261932737306}
+    - target: {fileID: 4018361015780881373, guid: c884123088440284692e484efd2c360f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4018361016754982190, guid: c884123088440284692e484efd2c360f,
         type: 3}
       propertyPath: m_Name
